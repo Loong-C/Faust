@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0",
+  "record_id": "faust-local8gb-r8-20260916",
+  "recorded_date": "2026-09-16",
+  "status": "completed",
+  "release": "faust-local8gb-0.2.0",
+  "profile": "lean",
+  "source": {
+    "branch": "training/lora-v0.1.0",
+    "git_commit": "e86945e967eecc629e1f9a75515b31b39d6584ad",
+    "run_signature": "35d88f1c55261230776554fc242020b363051a5378cb86c933473b847f98c8a7"
+  },
+  "model": {
+    "id": "unsloth/Qwen3-8B-Base-bnb-4bit",
+    "base_model": "Qwen/Qwen3-8B-Base",
+    "revision": "e3276524f7f4ce7df7b65dd9fcb7552a7f2d6de9",
+    "rank": 8,
+    "alpha": 16,
+    "trainable_parameters": 21823488
+  },
+  "data": {
+    "release": "faust-sft-0.1.0",
+    "fingerprint": "02a5f4af73beb29d4c432934f73c06dfc1ac1e5eb11355b33203730f13229156",
+    "train": 158,
+    "validation": 18,
+    "test": 19,
+    "test_used_for_training_or_model_selection": false,
+    "longest_train_tokens": 1904,
+    "effective_sequence_length": 1920,
+    "truncation_used": false
+  },
+  "runtime": {
+    "platform": "WSL2 Ubuntu",
+    "gpu": "NVIDIA GeForce RTX 4060 Ti",
+    "vram_gib": 7.99560546875,
+    "python": "3.11.16",
+    "pytorch": "2.10.0+cu128",
+    "unsloth": "2026.8.12",
+    "dtype": "bfloat16"
+  },
+  "training": {
+    "epochs": 3,
+    "optimizer_steps": 60,
+    "resumed_from": "checkpoint-10",
+    "best_checkpoint": "checkpoint-60",
+    "train_loss": 2.2468259215354918,
+    "eval_loss": 2.6802945137023926,
+    "elapsed_seconds": 801.064379251,
+    "peak_allocated_vram_gib": 7.573400020599365
+  },
+  "adapter": {
+    "tracked_by_git": false,
+    "relative_path": "runs/local8gb-r8/train/adapter",
+    "weights_file": "adapter_model.safetensors",
+    "bytes": 87360584,
+    "sha256": "eae8666741bbd413ec2d96e53d495f27deb776a8faeed6adf2fc37b82d35fdc8",
+    "tensor_count": 504,
+    "all_tensors_lora": true,
+    "all_tensors_finite": true,
+    "base_model_and_revision_pinned_in_adapter_config": true
+  },
+  "evaluation": {
+    "training_and_validation_complete": true,
+    "standalone_generation": "pending",
+    "original_scene_comparison": "pending",
+    "quality_claim": "not_yet_evaluated"
+  }
+}

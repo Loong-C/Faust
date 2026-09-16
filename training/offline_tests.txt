@@ -1,0 +1,33 @@
+test_empty_checkpoint_directory (test_training.CheckpointTests.test_empty_checkpoint_directory) ... ok
+test_incomplete_checkpoint_not_loaded (test_training.CheckpointTests.test_incomplete_checkpoint_not_loaded) ... ok
+test_latest_complete_checkpoint (test_training.CheckpointTests.test_latest_complete_checkpoint) ... ok
+test_manifest_digest_order_independent (test_training.CheckpointTests.test_manifest_digest_order_independent) ... ok
+test_export_matches_every_pair (test_training.DataTests.test_export_matches_every_pair) ... ok
+test_frozen_corpus (test_training.DataTests.test_frozen_corpus) ... ok
+test_original_cases (test_training.DataTests.test_original_cases) ... ok
+test_reference_training_only (test_training.DataTests.test_reference_training_only) ... ok
+test_scene_groups_do_not_cross (test_training.DataTests.test_scene_groups_do_not_cross) ... ok
+test_tampered_data_rejected (test_training.DataTests.test_tampered_data_rejected) ... ok
+test_test_is_not_training (test_training.DataTests.test_test_is_not_training) ... ok
+test_actual_eos_and_pad_same_id (test_training.MaskTests.test_actual_eos_and_pad_same_id) ... ok
+test_at_limit (test_training.MaskTests.test_at_limit) ... ok
+test_empty_batch (test_training.MaskTests.test_empty_batch) ... ok
+test_empty_prompt (test_training.MaskTests.test_empty_prompt) ... ok
+test_empty_target (test_training.MaskTests.test_empty_target) ... ok
+test_eos_not_masked (test_training.MaskTests.test_eos_not_masked) ... ok
+test_mismatched_lengths (test_training.MaskTests.test_mismatched_lengths) ... ok
+test_no_chat_or_think_template (test_training.MaskTests.test_no_chat_or_think_template) ... ok
+test_no_truncation (test_training.MaskTests.test_no_truncation) ... ok
+test_prompt_mask (test_training.MaskTests.test_prompt_mask) ... ok
+test_split_length_accounting (test_training.MaskTests.test_split_length_accounting) ... ok
+test_target_exactly_reconstructs (test_training.MaskTests.test_target_exactly_reconstructs) ... ok
+test_tensor_and_backward_cpu (test_training.MaskTests.test_tensor_and_backward_cpu) ... ok
+test_config (test_training.StaticTests.test_config) ... ok
+test_notebook_clean_and_parseable (test_training.StaticTests.test_notebook_clean_and_parseable) ... ok
+test_python_compiles (test_training.StaticTests.test_python_compiles) ... ok
+test_train_does_not_select_test (test_training.StaticTests.test_train_does_not_select_test) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 6.751s
+
+OK

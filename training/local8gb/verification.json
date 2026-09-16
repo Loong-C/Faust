@@ -1,0 +1,46 @@
+{
+  "release": "faust-local8gb-0.2.0",
+  "validated_date": "2026-09-16",
+  "checks": {
+    "offline_unit_tests": 36,
+    "passed": 36,
+    "cpu_torch_masked_loss_backward": true,
+    "python_syntax": true,
+    "bash_syntax": true,
+    "launcher_check_real_data": true,
+    "no_gpu_path_stops_before_install": true,
+    "frozen_corpus_files_byte_identical": 67,
+    "windows_wsl_launcher_end_to_end": true,
+    "dependency_environment_installed": true,
+    "real_qwen_tokenizer_audit": true,
+    "model_download_and_revision_pin": true,
+    "gpu_smoke_optimizer_step_and_save": true,
+    "checkpoint_resume": true,
+    "full_rank8_training": true,
+    "adapter_safetensors_integrity": true
+  },
+  "runtime": {
+    "platform": "WSL2 Ubuntu",
+    "python": "3.11.16",
+    "pytorch": "2.10.0+cu128",
+    "cuda_available": true,
+    "gpu": "NVIDIA GeForce RTX 4060 Ti",
+    "vram_gib": 7.99560546875,
+    "unsloth": "2026.8.12"
+  },
+  "not_executed": [
+    "Standalone generation with the completed adapter",
+    "Original-scene quality comparison"
+  ],
+  "reason": "Training and artifact integrity are complete; downstream generation-quality evaluation remains a separate stage.",
+  "training_started": true,
+  "training_status": "completed_rank8_lean",
+  "training_result_path": "models/faust-local8gb-r8-20260916.json",
+  "paid_services_created": false,
+  "data_counts": {
+    "train": 158,
+    "validation": 18,
+    "test": 19
+  },
+  "requirements_policy": "Published top-level pins + ranges; resolved freeze recorded on first successful local install, not a claimed GPU-validated transitive lock."
+}

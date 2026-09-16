@@ -1,0 +1,25 @@
+{
+  "release": "faust-local8gb-0.2.0",
+  "model_id": "unsloth/Qwen3-8B-Base-bnb-4bit",
+  "base_model": "Qwen/Qwen3-8B-Base",
+  "model_revision": "main",
+  "sequence_limit": 4096,
+  "rank": 16,
+  "alpha": 32,
+  "target_modules": [
+    "q_proj",
+    "k_proj",
+    "v_proj",
+    "o_proj",
+    "gate_proj",
+    "up_proj",
+    "down_proj"
+  ],
+  "epochs": 3,
+  "gradient_accumulation_steps": 8,
+  "learning_rate": 5e-05,
+  "seed": 3407,
+  "save_steps": 10,
+  "early_stopping_patience": 2,
+  "minimum_free_vram_gib": 6.5
+}

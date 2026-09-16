@@ -1,0 +1,9 @@
+从本次开始以GitHub的提交为同步基准。
+
+训练准备在 training/lora-v0.1.0 分支上提交，并向 main 开PR。可以直接使用该分支训练，不必先合并。请暂时保留训练分支，因为Colab入口指向它。任何更改原文、冻结SFT或划分的操作都应单独开新版本，不覆盖旧文件。
+
+现有原文与SFT文件保持不变。新增training/、eval/和models/README.txt；plan/STATE.json只更新当前阶段与同步模式。training/data_lock.json固定第一轮实验的数据哈希，不需要用户编辑。
+
+训练中产生的runs/、adapter、checkpoint、密钥等被.gitignore排除。GitHub不会自动获得你的本地训练日志，本会话也不会在你训练时后台观察。下一次请告知分支/commit，并提供run_manifest.json、metrics.json、preflight.json以及比较结果。不要提交.env或访问令牌。
+
+配置或数据变更要建立新分支/输出目录。语料版本faust-sft-0.1.0与训练准备版本faust-lora-prep-0.1.0是两种不同版本，不能把准备完成标记成训练完成。

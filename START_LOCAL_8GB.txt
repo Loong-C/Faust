@@ -1,0 +1,78 @@
+《浮士德》本机8GB QLoRA启动说明
+版本：faust-local8gb-0.2.0。数据版本仍为 faust-sft-0.1.0。
+
+先说清楚
+
+此入口针对RTX 4060 Ti 8GB，以Unsloth加载Qwen3-8B-Base的现成NF4四位量化版。它不是普通16位LoRA，更不是全参数训练。8GB是否足够容纳这份数据的最长样本，需要由你的显卡实际试跑确认。本次已经完成离线数据与代码测试，没有冒充已完成4060 Ti GPU测试。
+
+最简单的Windows用法
+
+先取得 training/lora-v0.1.0 分支的代码，而不是只更新main。使用Git时，在仓库目录执行 git fetch origin，然后执行 git switch training/lora-v0.1.0，再执行 git pull --ff-only。若本地有未提交修改，Git提示阻止切换时应保留修改，不要reset --hard；也可以把提供的完整本机包解压到一个新的空目录。
+
+没有WSL2时，用管理员身份打开PowerShell，执行 wsl --install -d Ubuntu-24.04。按Windows要求重启，打开Ubuntu，完成第一次Linux用户名和密码创建。以后训练不需要以Windows管理员身份运行。WSL2使用这台电脑的显卡，不是租服务器。
+
+安装或更新Windows侧NVIDIA驱动。不要在WSL里另装Linux NVIDIA驱动。若已经有Ubuntu和WSL2，可以跳过安装步骤；启动器支持Ubuntu-24.04或Ubuntu。其他发行版可直接使用下面的Linux入口。
+
+在仓库根目录双击 Run_Faust_8GB.cmd。首次会询问是否建立独立Python环境，输入y。缺少Ubuntu编译工具时，会通过sudo安装python3-venv和build-essential，输入刚建立的Linux密码；输入密码时终端没有字符回显是正常情况。
+
+随后自动完成环境安装、36项离线测试、数据哈希核对、显卡检查、真实token计数、两次优化器更新的显存试跑，以及最多三轮的正式训练。任何一步失败都会停止，窗口保留日志位置，不会偷偷截断原文、删除样本、切换其他模型或创建收费服务。
+
+Linux用法
+
+在仓库根目录运行 bash run_faust_8gb.sh。Ubuntu或Debian会在必要时询问后安装编译工具；其他Linux需预先准备python3/venv和C/C++编译器。环境由uv安装到Linux家目录，不改动系统Python，也不与旧的training/requirements.txt混装。
+
+机器与下载准备
+
+建议物理内存32GB；16GB可尝试，但WSL默认内存上限可能成为瓶颈。若Linux可用内存不足，程序会提示。需要调整时，应检查并合并你现有的用户目录.wslconfig，不要直接覆盖；为Windows留出足够内存后再选择WSL限额。
+
+建议为Python环境、模型缓存、检查点和输出预留约35GB磁盘。模型与环境在Linux用户目录 ~/.local/share/faust-local8gb 下缓存，不会每次重复下载。PyPI、PyTorch和Hugging Face下载服务需要能够访问。没有收费API调用，也不需要把密钥发给我。GitHub仓库能访问并不代表模型下载站也一定能访问。
+
+只试跑、不正式训练
+
+Windows终端在仓库根目录执行 .\Run_Faust_8GB.cmd -Action smoke。
+Linux执行 bash run_faust_8gb.sh smoke。
+
+试跑使用最长训练样本做反向传播，并用最长验证样本做验证。训练batch=1，梯度累积=8，与正式运行相同。第二个更新使用中位长度的训练样本。验证集不参与反向传播；test只作文件校验，不进入分词长度调参、梯度更新或模型选择。试跑adapter不会拿来继续正式训练；正式运行重新加载未微调底模。
+
+发生显存不足时
+
+先关闭游戏、其他本地模型和高显存占用应用，重新启动。若仍失败，可以显式使用更小rank的同底模配置：Windows执行 .\Run_Faust_8GB.cmd -Profile lean；Linux执行 bash run_faust_8gb.sh all lean。lean只把LoRA rank从16降到8、alpha从32降到16，不修改数据或文本长度，输出也放在不同目录。
+
+仍然OOM时不要盲目再降长度，不要删除长片段。把runs中的启动日志、preflight.json和smoke_latest.json交给我，由实际长度与显存结果判断是否改用更小Base模型或24GB云GPU。降低rank不能解决所有显存问题，本入口不保证8GB必定成功。
+
+输出在哪里
+
+默认正式adapter在 runs/local8gb-r16/train/adapter/。lean在 runs/local8gb-r8/train/adapter/。它们是小型LoRA增量权重，不是独立的完整8B模型。使用时仍需对应底模和分词器。
+
+同目录保存run_manifest.json、metrics.json、environment_freeze.txt、progress.jsonl和最近的检查点。上一级有preflight.json、model_pin.json与smoke_latest.json。这里记录底模的精确commit、数据指纹、token计数、环境版本及GPU试跑峰值显存。
+
+中断后重新双击同一入口，会重新试跑，并在配置、代码、数据、环境一致时恢复正式训练最近的完整检查点。未到第一次保存的更新无法恢复，会从原始底模重跑。只有不完整检查点时会停止而不覆盖，需指定新运行名。已完成的正式运行不会再被覆盖。
+
+高级用户可在Linux设置 FAUST_RUN_ID=一个新名字，再启动；或直接向run.py传 --run-id。Windows可在Ubuntu终端进行这项操作。
+
+训练完成后看一段样例
+
+Windows执行 .\Run_Faust_8GB.cmd -Action generate；Linux执行 bash run_faust_8gb.sh generate。它读取 training/local8gb/example_instruction_de.txt，并使用正式adapter生成一段新文本，写入runs下的preview文件。可以把这个说明文件换成你自己的平淡现代德语说明。中文说明转德语属于内容整理，不要求你自己懂德语；不要把中文突然当作当前德文训练模型的输入。
+
+训练与测试边界
+
+默认rank16，全部七类投影层，学习率5e-5，最多3 epochs，每10个优化器更新验证和保存，验证loss连续两次无改善时允许早停。模型只对原文和EOS计算loss，说明与padding不算loss。不加入新任务，不训练Style Judge或GRPO。
+
+真实token检查在你机器首次运行时进行。上下文不是一律4096：按全部train/validation样本的实际最大token数向上取64的整数倍，上限4096。超过上限则报出片段ID并停止，不截断。即使长度低于4096，8GB也未必装得下，所以仍必须试跑。
+
+环境说明
+
+此入口固定Unsloth 2026.8.12和Transformers 4.57.6，其他依赖在兼容范围内由uv解析；第一次安装的完整实际版本被写入requirements.resolved.txt，每次运行记录freeze，不会每次自动升级已安装环境。这不是声称所有传递依赖都已在本机验证的完全锁定环境。若依赖解析或CUDA内核失败，保留原始日志，不要混装旧的training/requirements.txt。
+
+同步说明
+
+本次只新增本机入口与说明，不改动Faust_Corpus中的任何数据。训练产生的runs目录和缓存不提交Git；反馈时只上传必要日志，adapter可留在本机或另存私有模型仓库。公开仓库中不得上传令牌、.env或个人缓存。未合并前，入口在training/lora-v0.1.0分支。
+
+依据
+
+Microsoft WSL安装：https://learn.microsoft.com/en-us/windows/wsl/install
+NVIDIA WSL GPU说明：https://docs.nvidia.com/cuda/wsl-user-guide/index.html
+Unsloth显存条件（官方明确是下限而非保证）：https://unsloth.ai/docs/get-started/beginner-start-here/unsloth-requirements
+Unsloth安装与发布：https://pypi.org/project/unsloth/2026.8.12/
+现成Base量化权重：https://huggingface.co/unsloth/Qwen3-8B-Base-bnb-4bit
+这些来源用于核对安装方法和模型身份，不是本项目GPU运行成功的证据。

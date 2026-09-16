@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.0",
+  "release_id": "faust-local8gb-0.2.0",
+  "parent_release_id": "faust-lora-prep-0.1.0",
+  "package_type": "git_change_set_not_apply_release_delta",
+  "base_commit": "660ac2f3170a6b0cc03b33599248fa74c89f815f",
+  "branch": "training/lora-v0.1.0",
+  "data_release": "faust-sft-0.1.0",
+  "frozen_corpus_tree": "14ae18812ee269d8e1aa4d66a2b1b8f2aa075581",
+  "local8gb_tree": "71cd764a1fc44a1b04c5d110224c968c8afbe63c",
+  "gpu_validation": "pending_user_PC_smoke",
+  "training_started": false,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "76f59a7f2de1673030a68b95d31eea59ea5edb62eafa437b2e668eb8be3760e7",
+      "git_blob_sha": "712ca0aa9b05ee842fd207ed1a7d3228abefdb12",
+      "bytes": 298
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "a6ba74b67940f004a6c06b19ade8353c26def6e6879ee7224ed3727913f6e104",
+      "git_blob_sha": "0cf5d5060fa0ad0705939a617f0f83eef9cec41d",
+      "bytes": 223
+    },
+    {
+      "path": "README.md",
+      "sha256": "5db6e519e5707ccafacbb648fb7825758930d1e368de71d6724e471ec8fc8c74",
+      "git_blob_sha": "582835183d3fdbc7a6b43f3e6825e57456e086b2",
+      "bytes": 1487
+    },
+    {
+      "path": "Run_Faust_8GB.cmd",
+      "sha256": "c03f2499ccd29d0114eca1b03e26898fa9fd343e98c1682af0e6266dda095e23",
+      "git_blob_sha": "e17936d4dbfc3fd8865194a1be3d29da76ad1dc8",
+      "bytes": 221
+    },
+    {
+      "path": "START_LOCAL_8GB.txt",
+      "sha256": "fd2309a70e93b2f75d5fdb449cfd392cb4a18d163f7ed3981f0c531114b9d9b6",
+      "git_blob_sha": "89498a8bdbe00947cf44d604422d873f6af69231",
+      "bytes": 7596
+    },
+    {
+      "path": "run_faust_8gb.sh",
+      "sha256": "1d51a751751c6b6469039be8ea5ba4c58fa6873968873cf7a1aeddd8823b7074",
+      "git_blob_sha": "046e5d6cda06a4621da1995fae42614a38f29b31",
+      "bytes": 172
+    },
+    {
+      "path": "plan/STATE.json",
+      "sha256": "23fffb5b4c76cd04c40437dba3509fd2b6984eb31abf16652af16ac9a6663567",
+      "git_blob_sha": "6c7a3016b6ed9d3ffcd373b8c73b1846a212d59a",
+      "bytes": 1447
+    },
+    {
+      "path": "training/local8gb/config.json",
+      "sha256": "86a77e3ce01ae069fd209c600da088414540fb3d6f02db251b0d4648067c96d3",
+      "git_blob_sha": "2ecf98d53b95cb1c40248345f50757c2cf10e0ff",
+      "bytes": 517
+    },
+    {
+      "path": "training/local8gb/core.py",
+      "sha256": "26aa8b41b53f3e7432488e75b94c591eee99b00bd4b4a301ae46fa3e603ee1c4",
+      "git_blob_sha": "fbe466fbf0d7029df8952815edbbfa54459f6b13",
+      "bytes": 7670
+    },
+    {
+      "path": "training/local8gb/data_lock.json",
+      "sha256": "d74d514360de1ec86831ddebb2c2d947a53be6d7cafde1a1ccca38a1e8e6c2a5",
+      "git_blob_sha": "48689271f988d6e742ad987a055cf20a43682230",
+      "bytes": 997
+    },
+    {
+      "path": "training/local8gb/example_instruction_de.txt",
+      "sha256": "b3f1cf4af38835453fd82921ef66cb07352fd2ff0178b74e4b2f2762122ef573",
+      "git_blob_sha": "b0a07403f3ede4ce095cc78e3c70079e4dd32b87",
+      "bytes": 702
+    },
+    {
+      "path": "training/local8gb/launch.ps1",
+      "sha256": "ba598915542119e6b2d78b0fa26d78441a8508c50212b297525964119229c5c0",
+      "git_blob_sha": "2c4e09d5cd7725f0396ba2acbdd0e46faa243fce",
+      "bytes": 2039
+    },
+    {
+      "path": "training/local8gb/requirements.in",
+      "sha256": "3e0cd7bfa7f1fb24f40f652e657c43ec2496da8c50f5095a6febe0bf60432e84",
+      "git_blob_sha": "da6e32f1d32c6953bf9712bec4d32e5757cd87ff",
+      "bytes": 453
+    },
+    {
+      "path": "training/local8gb/run.py",
+      "sha256": "5ce8c9482e531125ee47358dfe5378bf83e9700f78a140b2f9001636c1b0a359",
+      "git_blob_sha": "5931bb14919c0d1098ad21a554a7ac9e329dcf7a",
+      "bytes": 20373
+    },
+    {
+      "path": "training/local8gb/start.sh",
+      "sha256": "185a8a45bc159602404c443b39c3ddda6e632bbec61052d1a531c5e078f4d42e",
+      "git_blob_sha": "58bb86dd0a1c22486e47756d6d5ce07e5ab9c1ad",
+      "bytes": 4015
+    },
+    {
+      "path": "training/local8gb/test_core.py",
+      "sha256": "d486fd203cc51e0a8677e708fb75ddeccbc0806598718579d5ad1f5a415a95b0",
+      "git_blob_sha": "dd9b32a55f24c0271af150aba3947bc23bb37c4e",
+      "bytes": 7815
+    },
+    {
+      "path": "training/local8gb/verification.json",
+      "sha256": "4480306233d7eab78972f4260a507ce831eeb12730f623908deab65fc5f07cc9",
+      "git_blob_sha": "ea9cec5a17109d8f6069083ccc1c9ce8f7a69ebe",
+      "bytes": 1256
+    }
+  ]
+}
