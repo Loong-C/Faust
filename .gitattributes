@@ -5,3 +5,7 @@ Faust_Corpus/** -text
 training/*.json text eol=lf
 training/*.txt text eol=lf
 *.ipynb text eol=lf
+training/local8gb/** text eol=lf
+*.ps1 text eol=lf
+*.cmd text eol=crlf
+START_LOCAL_8GB.txt text eol=lf

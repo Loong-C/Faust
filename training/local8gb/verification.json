@@ -1,0 +1,36 @@
+{
+  "release": "faust-local8gb-0.2.0",
+  "validated_date": "2026-09-16",
+  "checks": {
+    "offline_unit_tests": 36,
+    "passed": 36,
+    "cpu_torch_masked_loss_backward": true,
+    "python_syntax": true,
+    "bash_syntax": true,
+    "launcher_check_real_data": true,
+    "no_gpu_path_stops_before_install": true,
+    "frozen_corpus_files_byte_identical": 67
+  },
+  "runtime": {
+    "python": "3.13.5",
+    "pytorch": "2.10.0+cpu",
+    "cuda_available": false
+  },
+  "not_executed": [
+    "Windows PowerShell / WSL2 launcher end to end",
+    "Dependency solver / package installation on user hardware",
+    "Real Qwen tokenizer audit",
+    "8B weights download and CUDA loading",
+    "Unsloth GPU smoke including optimizer state/save",
+    "Full training / resume / inference on RTX 4060 Ti"
+  ],
+  "reason": "Execution environment has CPU-only PyTorch; external download DNS unavailable. Runtime gates perform missing checks on the user PC.",
+  "training_started": false,
+  "paid_services_created": false,
+  "data_counts": {
+    "train": 158,
+    "validation": 18,
+    "test": 19
+  },
+  "requirements_policy": "Published top-level pins + ranges; resolved freeze recorded on first successful local install, not a claimed GPU-validated transitive lock."
+}

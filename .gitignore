@@ -18,3 +18,5 @@ checkpoints/
 *.ckpt
 *.gguf
 .DS_Store
+unsloth_compiled_cache/
+.pytest_cache/
