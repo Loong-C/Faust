@@ -1,0 +1,614 @@
+[
+  {
+    "work_id": "F1",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[1]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Zueignung."
+    ]
+  },
+  {
+    "work_id": "F1",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[2]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Vorspiel auf dem Theater."
+    ]
+  },
+  {
+    "work_id": "F1",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[3]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Prolog im Himmel."
+    ]
+  },
+  {
+    "work_id": "F1",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[4]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Nacht."
+    ]
+  },
+  {
+    "work_id": "F1",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[5]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Vor dem Tor."
+    ]
+  },
+  {
+    "work_id": "F1",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[6]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Studierzimmer."
+    ]
+  },
+  {
+    "work_id": "F1",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[7]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Studierzimmer."
+    ]
+  },
+  {
+    "work_id": "F1",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[8]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Auerbachs Keller in Leipzig."
+    ]
+  },
+  {
+    "work_id": "F1",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[9]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Hexenküche."
+    ]
+  },
+  {
+    "work_id": "F1",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[10]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Straße."
+    ]
+  },
+  {
+    "work_id": "F1",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[11]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Abend."
+    ]
+  },
+  {
+    "work_id": "F1",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[12]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Spaziergang."
+    ]
+  },
+  {
+    "work_id": "F1",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[13]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Der Nachbarin Haus."
+    ]
+  },
+  {
+    "work_id": "F1",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[14]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Straße."
+    ]
+  },
+  {
+    "work_id": "F1",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[15]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Garten."
+    ]
+  },
+  {
+    "work_id": "F1",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[16]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Ein Gartenhäuschen."
+    ]
+  },
+  {
+    "work_id": "F1",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[17]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Wald und Höhle."
+    ]
+  },
+  {
+    "work_id": "F1",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[18]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Gretchens Stube."
+    ]
+  },
+  {
+    "work_id": "F1",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[19]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Marthens Garten."
+    ]
+  },
+  {
+    "work_id": "F1",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[20]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Am Brunnen."
+    ]
+  },
+  {
+    "work_id": "F1",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[21]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Zwinger."
+    ]
+  },
+  {
+    "work_id": "F1",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[22]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Nacht."
+    ]
+  },
+  {
+    "work_id": "F1",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[23]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Dom."
+    ]
+  },
+  {
+    "work_id": "F1",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[24]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Walpurgisnacht."
+    ]
+  },
+  {
+    "work_id": "F1",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[25]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Walpurgisnachtstraum",
+      "oder",
+      "Oberons und Titanias goldne Hochzeit."
+    ]
+  },
+  {
+    "work_id": "F1",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[26]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Trüber Tag. Feld."
+    ]
+  },
+  {
+    "work_id": "F1",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[27]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Nacht. Offen Feld."
+    ]
+  },
+  {
+    "work_id": "F1",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[28]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Kerker."
+    ]
+  },
+  {
+    "work_id": "F2",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[1]",
+    "kind": "div",
+    "type": "act",
+    "text": null,
+    "direct_titles": [
+      "Erster Akt."
+    ]
+  },
+  {
+    "work_id": "F2",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[1]/t:div[1]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Anmutige Gegend."
+    ]
+  },
+  {
+    "work_id": "F2",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[1]/t:div[2]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Kaiserliche Pfalz. Saal des Thrones."
+    ]
+  },
+  {
+    "work_id": "F2",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[1]/t:div[3]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Weitläufiger Saal mit Nebengemächern"
+    ]
+  },
+  {
+    "work_id": "F2",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[1]/t:div[4]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Lustgarten."
+    ]
+  },
+  {
+    "work_id": "F2",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[1]/t:div[5]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Finstere Galerie."
+    ]
+  },
+  {
+    "work_id": "F2",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[1]/t:div[6]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Hell erleuchtete Säle."
+    ]
+  },
+  {
+    "work_id": "F2",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[1]/t:div[7]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Rittersaal."
+    ]
+  },
+  {
+    "work_id": "F2",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[2]",
+    "kind": "div",
+    "type": "act",
+    "text": null,
+    "direct_titles": [
+      "Zweiter Akt."
+    ]
+  },
+  {
+    "work_id": "F2",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[2]/t:div[1]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Hochgewölbtes enges gotisches Zimmer"
+    ]
+  },
+  {
+    "work_id": "F2",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[2]/t:div[2]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Laboratorium"
+    ]
+  },
+  {
+    "work_id": "F2",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[2]/t:div[3]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Klassische Walpurgisnacht"
+    ]
+  },
+  {
+    "work_id": "F2",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[2]/t:div[3]/t:div[1]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Pharsalische Felder."
+    ]
+  },
+  {
+    "work_id": "F2",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[2]/t:div[3]/t:div[2]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Am oberen Peneios."
+    ]
+  },
+  {
+    "work_id": "F2",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[2]/t:div[3]/t:div[3]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Am unteren Peneios."
+    ]
+  },
+  {
+    "work_id": "F2",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[2]/t:div[4]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Am obern Peneios."
+    ]
+  },
+  {
+    "work_id": "F2",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[2]/t:div[5]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Felsbuchten des ägäischen Meers."
+    ]
+  },
+  {
+    "work_id": "F2",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[3]",
+    "kind": "div",
+    "type": "act",
+    "text": null,
+    "direct_titles": [
+      "Dritter Akt."
+    ]
+  },
+  {
+    "work_id": "F2",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[3]/t:div[1]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Vor dem Palaste des Menelas zu Sparta."
+    ]
+  },
+  {
+    "work_id": "F2",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[3]/t:div[2]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Innerer Burghof"
+    ]
+  },
+  {
+    "work_id": "F2",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[3]/t:div[3]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "[Schattiger Hain]."
+    ]
+  },
+  {
+    "work_id": "F2",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[4]",
+    "kind": "div",
+    "type": "act",
+    "text": null,
+    "direct_titles": [
+      "Vierter Akt."
+    ]
+  },
+  {
+    "work_id": "F2",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[4]/t:div[1]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Hochgebirg."
+    ]
+  },
+  {
+    "work_id": "F2",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[4]/t:div[2]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Auf dem Vorgebirg."
+    ]
+  },
+  {
+    "work_id": "F2",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[4]/t:div[3]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Des Gegenkaisers Zelt."
+    ]
+  },
+  {
+    "work_id": "F2",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[5]",
+    "kind": "div",
+    "type": "act",
+    "text": null,
+    "direct_titles": [
+      "Fünfter Akt."
+    ]
+  },
+  {
+    "work_id": "F2",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[5]/t:div[1]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Offene Gegend."
+    ]
+  },
+  {
+    "work_id": "F2",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[5]/t:div[2]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Palast."
+    ]
+  },
+  {
+    "work_id": "F2",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[5]/t:div[3]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Tiefe Nacht."
+    ]
+  },
+  {
+    "work_id": "F2",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[5]/t:div[4]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Mitternacht."
+    ]
+  },
+  {
+    "work_id": "F2",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[5]/t:div[5]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Großer Vorhof des Palasts."
+    ]
+  },
+  {
+    "work_id": "F2",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[5]/t:div[6]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Grablegung."
+    ]
+  },
+  {
+    "work_id": "F2",
+    "source_xpath": "/t:TEI/t:text[1]/t:body[1]/t:div[5]/t:div[7]",
+    "kind": "div",
+    "type": "scene",
+    "text": null,
+    "direct_titles": [
+      "Bergschluchten."
+    ]
+  }
+]

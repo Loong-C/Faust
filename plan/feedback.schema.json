@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Faust review feedback",
+  "type": "object",
+  "required": [
+    "segment_id",
+    "issue_type",
+    "description_zh"
+  ],
+  "properties": {
+    "segment_id": {
+      "type": "string"
+    },
+    "issue_type": {
+      "type": "string"
+    },
+    "description_zh": {
+      "type": "string"
+    },
+    "proposed_instruction_de": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

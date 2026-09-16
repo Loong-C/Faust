@@ -1,0 +1,216 @@
+{
+  "parent_release_id": "corpus-reviewed-v2",
+  "original_archive_sha256": "bb000e5dc0213d315a390ebb1f046ba0e45c526e02d68e56693ca98950fe9696",
+  "files": [
+    {
+      "path": "LICENSE_CODE.txt",
+      "sha256": "7e1907847929307078a58e75fcaaf4b7ca588030aa66497de2856f3386064093",
+      "bytes": 1253
+    },
+    {
+      "path": "README_请先读.txt",
+      "sha256": "f88e198ba350335d9f251ab12a13e486d9be6dacc9b9eccc0c1b77903f6aeec3",
+      "bytes": 4411
+    },
+    {
+      "path": "SHA256SUMS.txt",
+      "sha256": "80ad5ddeb01260dd88fff6b7d721ff4de10b404d0e49e368ce3e0de9740feda0",
+      "bytes": 3791
+    },
+    {
+      "path": "corpus_preview_de.txt",
+      "sha256": "45527d125a484329f9079fe07eb357853721391d75f79d8f3a0f695e14c20d89",
+      "bytes": 576480
+    },
+    {
+      "path": "data/atoms.jsonl",
+      "sha256": "a15a333daf02d1b8a466e74e365ecbc7cddc38147cb5a386bb3b6fabf4e0af2b",
+      "bytes": 1595778
+    },
+    {
+      "path": "data/characters.jsonl",
+      "sha256": "b818f5fad768b7bc191040ae6786e888e095511d49da0544bd239e1be9bae67c",
+      "bytes": 92625
+    },
+    {
+      "path": "data/document_structure.json",
+      "sha256": "51fa62a3c3d2377e56f389f0f0ccac1a4a9221e94af7b03956afba639e41a3ab",
+      "bytes": 12624
+    },
+    {
+      "path": "data/events.jsonl",
+      "sha256": "4bf8bf45f2596e2a87dc49b500fd3198fca12110812c53cefe3d26e7119945b2",
+      "bytes": 7838845
+    },
+    {
+      "path": "data/inline_markup.jsonl",
+      "sha256": "a41bb2f661ced55c8375a59f40271cbd4a811ab8f48bedbab9b9362a94e0ab76",
+      "bytes": 164
+    },
+    {
+      "path": "data/master_segments.jsonl",
+      "sha256": "690a1c4433423b7425ac2bdd5124d2be7da4916c44d1fd4358438ca0dc102708",
+      "bytes": 1617485
+    },
+    {
+      "path": "data/scenes.jsonl",
+      "sha256": "12b86896520410a78e45e0ddf549280a75ddb088c97782b0430ad512d58fe758",
+      "bytes": 88465
+    },
+    {
+      "path": "data/source_atoms.jsonl",
+      "sha256": "dca7c9ae312bbcbeb10423f4cca87426f52761418198723cf19e5a758de14f79",
+      "bytes": 9345124
+    },
+    {
+      "path": "data/source_headings.jsonl",
+      "sha256": "ba21fd400a753063f604956c6e60dbc9cbff691007e7da18d0b663864d20ba7f",
+      "bytes": 9203
+    },
+    {
+      "path": "data/works.json",
+      "sha256": "7970ff1c621cf18c99c1094631e4f96ee7fffb1ca70b14ec297e41dda9162ef3",
+      "bytes": 88545
+    },
+    {
+      "path": "docs/master_segment.schema.json",
+      "sha256": "dbed729eb23ab81b74a3a17f272716f3433a07c89dd793ab7eae8fe686692642",
+      "bytes": 1914
+    },
+    {
+      "path": "docs/复现说明.txt",
+      "sha256": "a038c13221eebc57851117f15cafcc3be848fd1049cd7d3e7b1fb01190fc1a8d",
+      "bytes": 1417
+    },
+    {
+      "path": "docs/字段与使用说明.txt",
+      "sha256": "2f2c95b5a673a04410067d70c579b6514774bede71ef97a310df094119464ddf",
+      "bytes": 3672
+    },
+    {
+      "path": "docs/来源与许可.txt",
+      "sha256": "22c0bce78b594510cd6a8933fa714f901968fcbd8afe81f4a01531fc9326583a",
+      "bytes": 1869
+    },
+    {
+      "path": "notebooks/audit.ipynb",
+      "sha256": "64fa7912e65d7be382fed0d6b99ec3ffcc0cac6acd6316e5708c68f6403d09f2",
+      "bytes": 2052
+    },
+    {
+      "path": "raw/ger000201-goethe-faust-der-tragoedie-zweiter-teil.tei.xml",
+      "sha256": "32295a15d07b825b934166a496dfa8321822a9fcff6d162c7025d1483c12ed7c",
+      "bytes": 645403
+    },
+    {
+      "path": "raw/ger000243-goethe-faust-eine-tragoedie.tei.xml",
+      "sha256": "24069c0cf849d19a18badfcb7ac0b2e013ac2f9b77111b3a879b71d32ff2aaa4",
+      "bytes": 398630
+    },
+    {
+      "path": "review/boundary_review.jsonl",
+      "sha256": "46f995ebe03a7b401e2e9a998599f3de8ec42e78d4fbbcf19448f4538c845534",
+      "bytes": 229646
+    },
+    {
+      "path": "review/decisions.json",
+      "sha256": "995dce3ad22330552aa74fd9c6ff8d24e0642eaa5a8710f148abbb0c32833f4c",
+      "bytes": 37435
+    },
+    {
+      "path": "review/frozen_split_plan.json",
+      "sha256": "60fdba94aa4898b0e7d52b90adb664bbb74af8506912e616d6417114b5c452c4",
+      "bytes": 2145
+    },
+    {
+      "path": "review/source_annotations.jsonl",
+      "sha256": "e5990f86a0f90ed88d46146b67db0897d5f8ca3ed4e42cb18f28b31bee03ec59",
+      "bytes": 4821
+    },
+    {
+      "path": "scripts/audit.py",
+      "sha256": "be5f8f7d25d85db5195d9a7decaffedf369a3ff1405b711356afa2bd66679e74",
+      "bytes": 16579
+    },
+    {
+      "path": "scripts/build.py",
+      "sha256": "64f3d4028d0e935122c5aa787d8914a9d62078163e9b13185a2bab30561c1581",
+      "bytes": 16249
+    },
+    {
+      "path": "scripts/tei_reader.py",
+      "sha256": "0a31a9bcafa8b1948ce87ea644d64afe5fda8bbf702da3d4933b955092a94095",
+      "bytes": 13233
+    },
+    {
+      "path": "scripts/test_audit.py",
+      "sha256": "464de9892163ab0b6302db83e973865743a5212dc771636a5990e6f04bb221b7",
+      "bytes": 3000
+    },
+    {
+      "path": "splits/test.jsonl",
+      "sha256": "b3552c9b799d6bd409728b1c02dac78d925501aee5888a6053dbbad02ef6beb5",
+      "bytes": 161309
+    },
+    {
+      "path": "splits/train.jsonl",
+      "sha256": "e53c0e7289b39ad9155165beadef8cc17d1b79ec7ec1e4edd824e9d2f1bf804d",
+      "bytes": 1295133
+    },
+    {
+      "path": "splits/validation.jsonl",
+      "sha256": "6e9c1bc7e16d43b324d1f1d832617e35a3f2fbec4b3cbc8ec0f2290dfff8ee16",
+      "bytes": 161043
+    },
+    {
+      "path": "verification/audit_log.txt",
+      "sha256": "68ca3d4c9fc8ddafca04a24064a5ff81353131a62806565a5c85cf0248d1238f",
+      "bytes": 919
+    },
+    {
+      "path": "verification/build_log.txt",
+      "sha256": "7e764cea5e8052491af01df19f5a29dbd367d1f7953311302badfe8a549f2e5f",
+      "bytes": 180
+    },
+    {
+      "path": "verification/build_manifest.json",
+      "sha256": "ca8ceb0bffc160b46d09bb35a93e72abd3485135360a727009f79133643bea49",
+      "bytes": 631
+    },
+    {
+      "path": "verification/quality_report.json",
+      "sha256": "111f388c4218e94b447cde8c934d77247c54677e9696b2291dc0b14d5f8bf3ab",
+      "bytes": 12111
+    },
+    {
+      "path": "verification/regression_tests.txt",
+      "sha256": "7a782325c0c4aa58b107390953ed768883737897d01ad45d511bfb3fcd2165b2",
+      "bytes": 758
+    },
+    {
+      "path": "verification/reproducibility.json",
+      "sha256": "28137ca1f8a730e50f70482a2d7860c12a073de268ac6fdc2d530a06b689513d",
+      "bytes": 4470
+    },
+    {
+      "path": "verification/schema_validation.json",
+      "sha256": "88d278bf2a51a11c5770a9c535a75e65036aac8ca57911ab795060816ee006e9",
+      "bytes": 100
+    },
+    {
+      "path": "verification/source_manifest.json",
+      "sha256": "4d10ed1e0f635953adc71c1294ee96abecc660ef3d3f8cee84497c584e1bafe7",
+      "bytes": 610
+    },
+    {
+      "path": "切分目录_中文.txt",
+      "sha256": "b8b778ab932ef6894a6505c27be5c2b88620531fdfd2b8aa0c7c8669323bc80a",
+      "bytes": 36052
+    },
+    {
+      "path": "校验报告_中文.txt",
+      "sha256": "7e1d101c75a6a2ceae452c0d58a327f42f2d4e1c3a847eb251404eb9fb460b87",
+      "bytes": 5384
+    }
+  ]
+}

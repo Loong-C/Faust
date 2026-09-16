@@ -1,0 +1,281 @@
+{
+  "release_id": "faust-sft-0.1.0",
+  "all_automated_checks_passed": true,
+  "check_count": 57,
+  "checks": [
+    {
+      "check": "exactly_195_rows",
+      "passed": true
+    },
+    {
+      "check": "pairs_same_IDs_and_order",
+      "passed": true
+    },
+    {
+      "check": "pairs_unique_IDs",
+      "passed": true
+    },
+    {
+      "check": "annotations_same_IDs_and_order",
+      "passed": true
+    },
+    {
+      "check": "annotations_unique_IDs",
+      "passed": true
+    },
+    {
+      "check": "specifications_same_IDs_and_order",
+      "passed": true
+    },
+    {
+      "check": "specifications_unique_IDs",
+      "passed": true
+    },
+    {
+      "check": "all_parent_files_byte_identical",
+      "passed": true,
+      "details": {
+        "file_count": 42,
+        "changed": []
+      }
+    },
+    {
+      "check": "all_targets_identical_to_parent",
+      "passed": true
+    },
+    {
+      "check": "all_target_hashes_valid",
+      "passed": true
+    },
+    {
+      "check": "all_instruction_hashes_valid",
+      "passed": true
+    },
+    {
+      "check": "splits_inherited_unchanged",
+      "passed": true
+    },
+    {
+      "check": "source_locations_preserved",
+      "passed": true
+    },
+    {
+      "check": "structured_fields_match_authored_annotations",
+      "passed": true
+    },
+    {
+      "check": "end_state_is_final_beat",
+      "passed": true
+    },
+    {
+      "check": "no_empty_annotation_fields",
+      "passed": true
+    },
+    {
+      "check": "at_least_three_ordered_beats_each",
+      "passed": true
+    },
+    {
+      "check": "Chinese_only_in_audit_fields",
+      "passed": true
+    },
+    {
+      "check": "Chinese_mirror_present_each",
+      "passed": true
+    },
+    {
+      "check": "prompt_uses_only_allowed_annotation_fields",
+      "passed": true
+    },
+    {
+      "check": "generic_prefix_is_constant",
+      "passed": true
+    },
+    {
+      "check": "no_segment_ID_in_prompt",
+      "passed": true
+    },
+    {
+      "check": "no_XML_in_prompt",
+      "passed": true
+    },
+    {
+      "check": "no_target_contained_in_own_prompt",
+      "passed": true
+    },
+    {
+      "check": "no_style_analysis_request",
+      "passed": true
+    },
+    {
+      "check": "train_row_count",
+      "passed": true
+    },
+    {
+      "check": "train_only_prompt_completion",
+      "passed": true
+    },
+    {
+      "check": "train_content_exact",
+      "passed": true
+    },
+    {
+      "check": "train_index_ID_order",
+      "passed": true
+    },
+    {
+      "check": "train_index_positions",
+      "passed": true
+    },
+    {
+      "check": "train_index_hashes",
+      "passed": true
+    },
+    {
+      "check": "validation_row_count",
+      "passed": true
+    },
+    {
+      "check": "validation_only_prompt_completion",
+      "passed": true
+    },
+    {
+      "check": "validation_content_exact",
+      "passed": true
+    },
+    {
+      "check": "validation_index_ID_order",
+      "passed": true
+    },
+    {
+      "check": "validation_index_positions",
+      "passed": true
+    },
+    {
+      "check": "validation_index_hashes",
+      "passed": true
+    },
+    {
+      "check": "test_row_count",
+      "passed": true
+    },
+    {
+      "check": "test_only_prompt_completion",
+      "passed": true
+    },
+    {
+      "check": "test_content_exact",
+      "passed": true
+    },
+    {
+      "check": "test_index_ID_order",
+      "passed": true
+    },
+    {
+      "check": "test_index_positions",
+      "passed": true
+    },
+    {
+      "check": "test_index_hashes",
+      "passed": true
+    },
+    {
+      "check": "split_export_complete_nonoverlapping",
+      "passed": true
+    },
+    {
+      "check": "scene_groups_never_cross_splits",
+      "passed": true
+    },
+    {
+      "check": "all_instructions_distinct",
+      "passed": true
+    },
+    {
+      "check": "all_original_targets_distinct",
+      "passed": true
+    },
+    {
+      "check": "no_missing_source_event_ids",
+      "passed": true
+    },
+    {
+      "check": "no_source_event_lost_or_duplicated",
+      "passed": true
+    },
+    {
+      "check": "no_external_expert_claim",
+      "passed": true
+    },
+    {
+      "check": "no_api_claim",
+      "passed": true
+    },
+    {
+      "check": "no_unseen_pretraining_claim",
+      "passed": true
+    },
+    {
+      "check": "dedication_not_mislabelled_dialogue",
+      "passed": true
+    },
+    {
+      "check": "prose_scene_forms_preserved",
+      "passed": true
+    },
+    {
+      "check": "no_six_word_original_phrase_in_any_prompt",
+      "passed": true
+    },
+    {
+      "check": "no_Chinese_sidecar_in_training_exports",
+      "passed": true
+    },
+    {
+      "check": "Chinese_document_covers_all_IDs",
+      "passed": true
+    }
+  ],
+  "failed_checks": [],
+  "rows": 195,
+  "splits": {
+    "train": {
+      "rows": 158,
+      "scene_groups": 42
+    },
+    "validation": {
+      "rows": 18,
+      "scene_groups": 5
+    },
+    "test": {
+      "rows": 19,
+      "scene_groups": 6
+    }
+  },
+  "parent_files_unchanged": 42,
+  "instruction_words": {
+    "min": 85,
+    "median": 123,
+    "max": 156
+  },
+  "lexical_screen": {
+    "method": "Unicode words; case-insensitive; punctuation ignored; scan each prompt against all 195 original targets",
+    "rows_with_4_plus_word_matches": 9,
+    "max_match_words": 4,
+    "rows_with_6_plus_word_matches": 0
+  },
+  "semantic_review": {
+    "reviewed_segments": 195,
+    "method": "assistant source reading, annotation and second-pass self-review",
+    "independent_external_model_or_expert": false,
+    "external_api_calls": 0,
+    "standard_zh": "中性现代德语；按原文推进；区分事实、转述、梦境、意图和人物判断；不过度补全；中文为内容对照而非逐字翻译。"
+  },
+  "limitations_zh": [
+    "机器检查核验文件、对应关系与字面重合，不证明每项文学理解唯一正确。",
+    "说明有意保留剧情语义，但不逐句保留所有意象、典故和措辞；本数据不是逐句注释版。",
+    "原作已公开多年，不能排除底模预训练见过原文。",
+    "没有运行微调，也没有用特定底模tokenizer计数；训练前须核算prompt与completion总长度。",
+    "各候选模型的模板、EOS和仅completion计算loss须在训练配置中确定。"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "source_kind": "user_uploaded_TEI_snapshot",
+  "source_hashes": {
+    "F1": "24069c0cf849d19a18badfcb7ac0b2e013ac2f9b77111b3a879b71d32ff2aaa4",
+    "F2": "32295a15d07b825b934166a496dfa8321822a9fcff6d162c7025d1483c12ed7c"
+  },
+  "git_commit": null,
+  "independently_downloaded_upstream": false,
+  "external_collation_performed": false,
+  "edition_from_TEI_header": "Hamburger Ausgabe, Band III, vierte Auflage, Wegner 1959",
+  "explanatory_note_zh": "本包以用户上传的两个文件为完整处理范围；没有伪称从某个 Git 提交下载，也未把保存时间当作原文件下载时间。"
+}

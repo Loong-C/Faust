@@ -1,0 +1,11 @@
+test_detects_changed_target_text (__main__.AuditRegressionTests.test_detects_changed_target_text) ... ok
+test_detects_fabricated_model_token_counts (__main__.AuditRegressionTests.test_detects_fabricated_model_token_counts) ... ok
+test_detects_false_download_provenance (__main__.AuditRegressionTests.test_detects_false_download_provenance) ... ok
+test_detects_missing_boundary_record (__main__.AuditRegressionTests.test_detects_missing_boundary_record) ... ok
+test_detects_reordered_targets (__main__.AuditRegressionTests.test_detects_reordered_targets) ... ok
+test_original_delivery_passes (__main__.AuditRegressionTests.test_original_delivery_passes) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 3.601s
+
+OK

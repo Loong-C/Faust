@@ -1,0 +1,9 @@
+本包已经包含生成好的全部数据，不必运行代码才能使用。
+
+需要复现时，在Python 3.10或更新版本中执行python scripts/build.py，然后执行python scripts/audit.py。两条命令只访问当前包内的文件，不访问网络、调用API或加载模型。它们重新生成data、splits和正文预览，并把校验结果写入verification/quality_report.json。构建依据是raw中的两份快照、review/decisions.json中的逐场切点和review/frozen_split_plan.json中的场景集合归属。
+
+切点表达是源原子定位而不是待执行的模型提示。整数N表示原场景中第N个原子结束；N@i表示该原子中从零起数的第i个事件结束；N!表示将该原子最后的舞台说明留给右侧片段；N^表示在该原子最后一句诗行或散文之后结束，让尾随舞台说明与下段一起保存。每个表达均已在此次构建中解析并校验。最终边界还以明确event_id记录在boundary_review.jsonl中。
+
+verification/reproducibility.json记录对已生成的数据重新构建后逐文件哈希的对比。notebooks/audit.ipynb只是供交互式查看同一校验过程，使用它不是必需步骤。
+
+SHA256SUMS.txt记录压缩包内部交付文件的校验值，不包含该清单自身。复现如果改变代码或决定文件，会相应改变一些校验值；不要将这种变动误称为原始快照变动。

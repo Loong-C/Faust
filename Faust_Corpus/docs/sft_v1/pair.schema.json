@@ -1,0 +1,116 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Faust stage2 pair v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "release_id",
+    "segment_id",
+    "work_id",
+    "scene_id",
+    "scene_group_id",
+    "scene_title",
+    "scene_title_zh",
+    "split",
+    "instruction_de",
+    "description_zh",
+    "scene_specification",
+    "target_text",
+    "target_text_sha256",
+    "instruction_sha256",
+    "source",
+    "quality"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "release_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "segment_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "work_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "scene_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "scene_group_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "scene_title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "scene_title_zh": {
+      "type": "string",
+      "minLength": 1
+    },
+    "instruction_de": {
+      "type": "string",
+      "minLength": 1
+    },
+    "description_zh": {
+      "type": "string",
+      "minLength": 1
+    },
+    "target_text": {
+      "type": "string",
+      "minLength": 1
+    },
+    "split": {
+      "enum": [
+        "train",
+        "validation",
+        "test"
+      ]
+    },
+    "target_text_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "instruction_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "scene_specification": {
+      "type": "object",
+      "required": [
+        "segment_id",
+        "split",
+        "form_de",
+        "situation_de",
+        "beats_de",
+        "ending_state_de",
+        "speakers",
+        "description_zh",
+        "scope_zh"
+      ],
+      "properties": {
+        "beats_de": {
+          "type": "array",
+          "minItems": 3,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "source": {
+      "type": "object"
+    },
+    "quality": {
+      "type": "object"
+    }
+  }
+}

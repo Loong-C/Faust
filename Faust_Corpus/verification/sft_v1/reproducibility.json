@@ -1,0 +1,17 @@
+{
+  "deterministic_rebuild_passed": true,
+  "compared_files": {
+    "data/sft_v1/faust_sft_pairs.jsonl": "2576a3d61bca864aca9251d5e68bee134afa385b30544474f1b7e70975faf13c",
+    "data/sft_v1/scene_specs.jsonl": "27d0f616a48018caeef5412b75dfc09533b5e3884c6e39b3283b28cf97de4c88",
+    "splits/sft_v1/test.jsonl": "896b9a693407e8cecbe6fbf132f6e87011384643b7ea1db7afb0764395a9565f",
+    "splits/sft_v1/validation_index.jsonl": "7487ac96796ace4bd54fb1694d421cd8e7dcc8626f9feaf4876979aa9a5ea13e",
+    "splits/sft_v1/test_index.jsonl": "d7ee920712cbc4ff5f63fe24b314985f868d66714b40fee6df655fbf27cb3336",
+    "splits/sft_v1/train.jsonl": "4a8c7df8374c6b7f3cd4bdbf874ff98e959500a8064c5a665f95ba056d85d2aa",
+    "splits/sft_v1/validation.jsonl": "2af03c50a9adae8279fc9d3ae6e0c6e02f46f5e487f0ba15b59b54feeb7a0ae0",
+    "splits/sft_v1/train_index.jsonl": "b289fc11b7b3005c89a23e9aec5e2b9018ea4ea06101a53e580107d9b67a705e",
+    "docs/sft_v1/剧本说明_中文.txt": "2a2b79c5a8cb23e7ccee1e44a1022ca133c1721e319061f6754e0a29f345b4ce"
+  },
+  "file_count": 9,
+  "schema_rows_passed": 195,
+  "human_annotations_regenerated": false
+}

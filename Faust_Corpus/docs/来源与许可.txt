@@ -1,0 +1,21 @@
+来源记录
+
+本包采用用户在本对话中上传的两份原始文件。它们的TEI头部分别标识作品为ger000243及ger000201，语言为de，作者为Johann Wolfgang Goethe，出版机构为DraCor。未重新下载并锁定某个Git提交，因此source_manifest中的git_commit为null。
+
+ger000243-goethe-faust-eine-tragoedie.tei.xml的SHA-256为24069c0cf849d19a18badfcb7ac0b2e013ac2f9b77111b3a879b71d32ff2aaa4。
+
+ger000201-goethe-faust-der-tragoedie-zweiter-teil.tei.xml的SHA-256为32295a15d07b825b934166a496dfa8321822a9fcff6d162c7025d1483c12ed7c。
+
+两份头部记载的纸本底本是Goethes Werke，Hamburger Ausgabe，Band III，Erich Trunz校订，第四版，Hamburg: Wegner, 1959。第一部所记页码为7—145，第二部为146—364。本项目未将别的版本静默替换进正文，也未进行独立的历史批判版逐字校勘。
+
+保留原文件中的许可声明
+
+publicationStmt/availability/licence写明CC0 1.0，并指向https://creativecommons.org/publicdomain/zero/1.0/。
+
+sourceDesc/bibl中的TextGrid来源另行写明CC-BY-3.0，并指向http://creativecommons.org/licenses/by/3.0/de/legalcode。TextGrid资源地址分别为http://www.textgridrep.org/textgrid:11g5q.0及http://www.textgridrep.org/textgrid:11d11.0。
+
+本包原样保留上述不同层级的声明与来源信息，不将它们简化成“所有组成部分只存在一种许可”。使用或再分发时保留Goethe、DraCor、TextGrid及底本信息。正文改动范围仅为抽取后的空格与换行格式；说话人修订是独立元数据注释，原始XML文件未改。
+
+代码与整理说明
+
+本包新增的脚本、中文说明和边界决定由本项目制作。脚本采用MIT许可，见LICENSE_CODE.txt。该代码许可不代替原始文献自身的许可声明。本包不包含现代中文译本、模型权重或字体文件。

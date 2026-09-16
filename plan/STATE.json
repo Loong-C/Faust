@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "release_id": "faust-sft-0.1.0",
+  "parent_release_id": "corpus-reviewed-v2",
+  "stage": "stage2_scene_descriptions_complete_not_trained",
+  "annotation_version": "sft_v1",
+  "master_corpus_path": "Faust_Corpus/data/master_segments.jsonl",
+  "master_corpus_sha256": "690a1c4433423b7425ac2bdd5124d2be7da4916c44d1fd4358438ca0dc102708",
+  "pairs_path": "Faust_Corpus/data/sft_v1/faust_sft_pairs.jsonl",
+  "pairs_sha256": "2576a3d61bca864aca9251d5e68bee134afa385b30544474f1b7e70975faf13c",
+  "annotations_path": "Faust_Corpus/review/sft_v1/annotations.jsonl",
+  "annotations_sha256": "e368b542468f1ee3eb2e77bc0230f0f0713e94d8993499f20307cc084aa31b02",
+  "split_counts": {
+    "train": 158,
+    "validation": 18,
+    "test": 19
+  },
+  "manifest_path": "plan/releases/faust-sft-0.1.0/manifest.json",
+  "feedback_path": "plan/feedback.jsonl",
+  "last_stage_complete": "neutral_German_specs_with_Chinese_mirrors",
+  "next_stage": "choose_baseline_model_and_training_configuration",
+  "sync_mode": "user_transfers_versioned_archives; no automatic remote access"
+}

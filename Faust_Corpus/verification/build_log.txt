@@ -1,0 +1,11 @@
+{
+  "segments": 195,
+  "scenes": 55,
+  "events": 15062,
+  "atoms": 2143,
+  "words": 78174,
+  "min_words": 42,
+  "max_words": 806,
+  "source_annotation_records": 9,
+  "cuts": 140
+}

@@ -1,0 +1,5 @@
+{
+  "validated_rows": 195,
+  "all_passed": true,
+  "validator": "jsonschema.Draft202012Validator"
+}

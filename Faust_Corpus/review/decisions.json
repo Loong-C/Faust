@@ -1,0 +1,986 @@
+{
+  "F1_S001": {
+    "title_zh": "献词",
+    "cuts": [],
+    "whole_scene_note_zh": "原场本身构成完整单元，全部保留，不为凑长度拆分。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F1_S002": {
+    "title_zh": "舞台序曲",
+    "cuts": [
+      {
+        "after": 4,
+        "reason_zh": "诗人与丑角关于当世和后世的首轮交锋结束；经理转向具体舞台效果。"
+      },
+      {
+        "after": 9,
+        "reason_zh": "关于诗人使命与如何取材生活的争论告一段落；诗人转而怀念青春。"
+      }
+    ],
+    "whole_scene_note_zh": "原场本身构成完整单元，全部保留，不为凑长度拆分。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F1_S003": {
+    "title_zh": "天堂序曲",
+    "cuts": [
+      {
+        "after": 10,
+        "reason_zh": "关于人类普遍境况的问答结束；下一段完整保留上帝问起浮士德以及随后的赌约。"
+      }
+    ],
+    "whole_scene_note_zh": "原场本身构成完整单元，全部保留，不为凑长度拆分。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F1_S004": {
+    "title_zh": "夜：书斋",
+    "cuts": [
+      {
+        "after": "3@76",
+        "reason_zh": "浮士德对学术和书斋的抱怨转为求助神灵；在打开宏观世界图符的舞台动作之前切分。"
+      },
+      {
+        "after": 12,
+        "reason_zh": "地灵与浮士德的对答结束，地灵消失；随后是浮士德受挫及瓦格纳来访。"
+      },
+      {
+        "after": 26,
+        "reason_zh": "瓦格纳离场，整轮师生交谈结束。"
+      },
+      {
+        "after": "27@85",
+        "reason_zh": "第二段长独白对书籍、器具和继承所得的反思结束，随后视线转向药瓶。"
+      },
+      {
+        "after": "27@119",
+        "reason_zh": "面对药瓶和死亡的决意已展开；下一段把举杯动作与复活节钟声、合唱及放下杯子连在一起。"
+      }
+    ],
+    "whole_scene_note_zh": "原场本身构成完整单元，全部保留，不为凑长度拆分。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F1_S005": {
+    "title_zh": "城门外",
+    "cuts": [
+      {
+        "after": 22,
+        "reason_zh": "市民关于战争与安居的回应完成；转入老妇、姑娘和士兵的街景。"
+      },
+      {
+        "after": 28,
+        "reason_zh": "浮士德赞美春日人群，瓦格纳作出回应；下一段转入乡民歌舞与敬酒。"
+      },
+      {
+        "after": 34,
+        "reason_zh": "乡民敬酒、称颂和浮士德答谢完整结束，两人离开人群。"
+      },
+      {
+        "after": 37,
+        "reason_zh": "浮士德自责父子行医害人，瓦格纳回应；余段完整保留夕照、两种志趣、双重灵魂和黑犬出现。"
+      }
+    ],
+    "whole_scene_note_zh": "原场本身构成完整单元，全部保留，不为凑长度拆分。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F1_S006": {
+    "title_zh": "书斋：黑犬现形",
+    "cuts": [
+      {
+        "after": 1,
+        "reason_zh": "入室、译经和发现黑犬变形的独白告一段落；走廊精灵转为旁观发声。"
+      },
+      {
+        "after": 6,
+        "reason_zh": "咒语、现形及初次招呼完成；接下来完整进行身份和本性问答。"
+      },
+      {
+        "after": 17,
+        "reason_zh": "关于否定精神与创生力量的辩论结束；魔鬼转而请求离开。"
+      },
+      {
+        "after": 31,
+        "reason_zh": "逃离规则、五角星和拒绝放行的问答完成；下段保留娱乐提议、催眠合唱及脱身。"
+      }
+    ],
+    "whole_scene_note_zh": "原场本身构成完整单元，全部保留，不为凑长度拆分。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F1_S007": {
+    "title_zh": "书斋：契约与学生",
+    "cuts": [
+      {
+        "after": 13,
+        "reason_zh": "死亡与未饮毒药的交锋结束，转入诅咒与诱导。"
+      },
+      {
+        "after": 16,
+        "reason_zh": "诅咒、精灵劝慰和魔鬼提出服务完整成段；随后进入报酬条件谈判。"
+      },
+      {
+        "after": 29,
+        "reason_zh": "服务条件、打赌和对赌约的确认完整结束。"
+      },
+      {
+        "after": 34,
+        "reason_zh": "书面契约与血签的交谈结束；浮士德转向自己想体验的生活。"
+      },
+      {
+        "after": 44,
+        "reason_zh": "关于有限人生、欲望与借取外力的论辩完成。"
+      },
+      {
+        "after": "49!",
+        "reason_zh": "浮士德离去、魔鬼独白结束；把学生入场的舞台说明留给下段。"
+      },
+      {
+        "after": 66,
+        "reason_zh": "学生初见、逻辑学与形而上学劝学及回应完整保留；随后转入专业选择。"
+      },
+      {
+        "after": 73,
+        "reason_zh": "法律和神学的介绍以及词语与概念的问答结束；医学提问留在下一段与回答相连。"
+      },
+      {
+        "after": "83!",
+        "reason_zh": "医学、题签、学生告辞及魔鬼评语结束；浮士德返场说明接入最后一段。"
+      }
+    ],
+    "whole_scene_note_zh": "原场本身构成完整单元，全部保留，不为凑长度拆分。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F1_S008": {
+    "title_zh": "奥尔巴赫酒窖",
+    "cuts": [
+      {
+        "after": 17,
+        "reason_zh": "酒客闲谈和席贝尔失恋牢骚结束；完整老鼠歌及合唱从下一段开始。"
+      },
+      {
+        "after": "26!",
+        "reason_zh": "老鼠歌、全部合唱和席贝尔遭取笑的回应完整保留；浮士德二人的进场接在下一段。"
+      },
+      {
+        "after": 44,
+        "reason_zh": "对陌生人的试探与回敬结束；随后开始点歌。"
+      },
+      {
+        "after": 60,
+        "reason_zh": "跳蚤歌、合唱和欢呼完整保留；随后转入酒的戏法。"
+      },
+      {
+        "after": 90,
+        "reason_zh": "选酒、钻孔、变酒及饮酒合唱完整结束；下段是火焰、冲突与幻觉。"
+      }
+    ],
+    "whole_scene_note_zh": "原场本身构成完整单元，全部保留，不为凑长度拆分。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F1_S009": {
+    "title_zh": "女巫厨房",
+    "cuts": [
+      {
+        "after": 18,
+        "reason_zh": "返老还童方案及询问女巫去向结束；转入猿猴的游戏。"
+      },
+      {
+        "after": "34!",
+        "reason_zh": "猿猴游戏、镜中美人和冠冕戏仿告一段落；女巫降临的动作接在下一段。"
+      },
+      {
+        "after": 44,
+        "reason_zh": "女巫认出魔鬼、称谓争论和魔鬼示范如何对付女巫的评语结束；余下保留取药与施法全过程。"
+      }
+    ],
+    "whole_scene_note_zh": "原场本身构成完整单元，全部保留，不为凑长度拆分。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F1_S010": {
+    "title_zh": "街道：初遇",
+    "cuts": [],
+    "whole_scene_note_zh": "原场本身构成完整单元，全部保留，不为凑长度拆分。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F1_S011": {
+    "title_zh": "傍晚：玛格丽特的房间",
+    "cuts": [
+      {
+        "after": 11,
+        "reason_zh": "进入房间、浮士德独白、藏首饰和二人退场完整结束；下段为玛格丽特归来、歌唱及发现首饰。"
+      }
+    ],
+    "whole_scene_note_zh": "原场本身构成完整单元，全部保留，不为凑长度拆分。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F1_S012": {
+    "title_zh": "散步",
+    "cuts": [],
+    "whole_scene_note_zh": "原场本身构成完整单元，全部保留，不为凑长度拆分。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F1_S013": {
+    "title_zh": "邻妇家",
+    "cuts": [
+      {
+        "after": 16,
+        "reason_zh": "首饰商议和来客招呼完成；从下一段开始完整保留丈夫死讯与反应。"
+      },
+      {
+        "after": 35,
+        "reason_zh": "死讯、穷困处境及对少女婚恋的插话告一段落；下一段由玛尔特要求继续讲述引出临终故事。"
+      }
+    ],
+    "whole_scene_note_zh": "原场本身构成完整单元，全部保留，不为凑长度拆分。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F1_S014": {
+    "title_zh": "街道：作证之议",
+    "cuts": [],
+    "whole_scene_note_zh": "原场本身构成完整单元，全部保留，不为凑长度拆分。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F1_S015": {
+    "title_zh": "花园",
+    "cuts": [
+      {
+        "after": 10,
+        "reason_zh": "两对人物各自的初轮交谈完成，并有走过的舞台动作。"
+      },
+      {
+        "after": 31,
+        "reason_zh": "少女叙述家事和照顾妹妹的经历完整保留，玛尔特向魔鬼探问婚恋也完整结束；转回初遇与花瓣占卜。"
+      }
+    ],
+    "whole_scene_note_zh": "原场本身构成完整单元，全部保留，不为凑长度拆分。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F1_S016": {
+    "title_zh": "花园小屋",
+    "cuts": [],
+    "whole_scene_note_zh": "原场本身构成完整单元，全部保留，不为凑长度拆分。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F1_S017": {
+    "title_zh": "森林与岩洞",
+    "cuts": [
+      {
+        "after": "1!",
+        "reason_zh": "浮士德对地灵的完整独白结束，魔鬼入场动作留在下一段。"
+      }
+    ],
+    "whole_scene_note_zh": "先保留浮士德独白，随后将魔鬼讥讽、少女思念和浮士德的自责作为一整轮两人交锋；不在“Pfui”及魔鬼直接回应之间拆分，允许这一连续对白略长于通常目标。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F1_S018": {
+    "title_zh": "格蕾琴的房间：纺车之歌",
+    "cuts": [],
+    "whole_scene_note_zh": "原场本身构成完整单元，全部保留，不为凑长度拆分。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F1_S019": {
+    "title_zh": "玛尔特的花园",
+    "cuts": [
+      {
+        "after": 17,
+        "reason_zh": "信仰问答及浮士德的短回应结束；转入少女对魔鬼的反感。"
+      },
+      {
+        "after": "34!",
+        "reason_zh": "少女对魔鬼的警惕、夜间相会和安眠药约定完整结束；魔鬼进场接到下段。"
+      }
+    ],
+    "whole_scene_note_zh": "原场本身构成完整单元，全部保留，不为凑长度拆分。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F1_S020": {
+    "title_zh": "井边",
+    "cuts": [],
+    "whole_scene_note_zh": "原场本身构成完整单元，全部保留，不为凑长度拆分。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F1_S021": {
+    "title_zh": "城墙夹道",
+    "cuts": [],
+    "whole_scene_note_zh": "原场本身构成完整单元，全部保留，不为凑长度拆分。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F1_S022": {
+    "title_zh": "夜：格蕾琴门前",
+    "cuts": [
+      {
+        "after": 9,
+        "reason_zh": "瓦伦丁独白和二人关于礼物的谈话结束；歌唱、决斗和伤者辨认放在同一段。"
+      },
+      {
+        "after": 30,
+        "reason_zh": "决斗、二人逃离与格蕾琴认出哥哥完整结束；下一段保留瓦伦丁的临终责骂。"
+      }
+    ],
+    "whole_scene_note_zh": "原场本身构成完整单元，全部保留，不为凑长度拆分。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F1_S023": {
+    "title_zh": "大教堂",
+    "cuts": [],
+    "whole_scene_note_zh": "原场本身构成完整单元，全部保留，不为凑长度拆分。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F1_S024": {
+    "title_zh": "瓦尔普吉斯之夜",
+    "cuts": [
+      {
+        "after": 7,
+        "reason_zh": "鬼火引路和交替吟唱完整结束；转入山中火光。"
+      },
+      {
+        "after": 12,
+        "reason_zh": "火光与风暴的描写结束，下一段完整保留女巫队伍的交错合唱。"
+      },
+      {
+        "after": 32,
+        "reason_zh": "女巫登山队伍歌唱完毕并降落；转回浮士德和魔鬼。"
+      },
+      {
+        "after": 46,
+        "reason_zh": "两人择路及围火人群的时世牢骚完整结束；旧货女巫开始招徕。"
+      },
+      {
+        "after": 60,
+        "reason_zh": "旧货、莉莉丝介绍与两对舞伴的唱和完成；随后讽刺学究闯入。"
+      },
+      {
+        "after": 69,
+        "reason_zh": "学究干扰舞会及浮士德退出舞蹈的问答完成；随后出现格蕾琴幻象。"
+      }
+    ],
+    "whole_scene_note_zh": "原场本身构成完整单元，全部保留，不为凑长度拆分。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F1_S025": {
+    "title_zh": "瓦尔普吉斯之梦：金婚插曲",
+    "cuts": [
+      {
+        "after": 21,
+        "reason_zh": "风向标朝相反方向的两次发言一并保留；以下转入赠言诗、文坛与哲学讽刺。"
+      }
+    ],
+    "whole_scene_note_zh": "原场本身构成完整单元，全部保留，不为凑长度拆分。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F1_S026": {
+    "title_zh": "阴沉的日子：原野",
+    "cuts": [],
+    "whole_scene_note_zh": "原场本身构成完整单元，全部保留，不为凑长度拆分。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F1_S027": {
+    "title_zh": "夜：旷野",
+    "cuts": [],
+    "whole_scene_note_zh": "原场本身构成完整单元，全部保留，不为凑长度拆分。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F1_S028": {
+    "title_zh": "监狱",
+    "cuts": [
+      {
+        "after": 15,
+        "reason_zh": "误认来人、辨认声音和认出爱人完整成段；转入催促离开与少女的反应。"
+      },
+      {
+        "after": 34,
+        "reason_zh": "少女坦承母亲和孩子之死、安排埋葬、拒绝逃离，浮士德提出留下；余段保留幻觉、最后劝逃与终局。"
+      }
+    ],
+    "whole_scene_note_zh": "原场本身构成完整单元，全部保留，不为凑长度拆分。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F2_S001": {
+    "title_zh": "优美的原野",
+    "cuts": [
+      {
+        "after": 4,
+        "reason_zh": "精灵疗愈合唱和阿里埃尔宣告日出完整结束；浮士德醒后的独白独立成段。"
+      }
+    ],
+    "whole_scene_note_zh": "原场本身构成完整单元，全部保留，不为凑长度拆分。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F2_S002": {
+    "title_zh": "皇宫：御座厅",
+    "cuts": [
+      {
+        "after": 8,
+        "reason_zh": "新弄臣到来、受纳及皇帝开议结束；四位官员的困境报告集中在下一段。"
+      },
+      {
+        "after": 12,
+        "reason_zh": "司法、军务、财政和宫廷开支四项报告完整保留；皇帝转问弄臣。"
+      },
+      {
+        "after": 24,
+        "reason_zh": "宝藏方案、宗教反对和官员表态完成；开始征询占星家。"
+      },
+      {
+        "after": 31,
+        "reason_zh": "占星家回答、皇帝和众人的反应，以及地下宝藏征兆的讽刺回应完整结束；余段为皇帝催促实施和延期欢庆。"
+      }
+    ],
+    "whole_scene_note_zh": "原场本身构成完整单元，全部保留，不为凑长度拆分。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F2_S003": {
+    "title_zh": "宽阔大厅：化装游行",
+    "cuts": [
+      {
+        "after": "11!",
+        "reason_zh": "花商、花饰和果品歌唱完结；母女入场的说明放在下一段。"
+      },
+      {
+        "after": "18^",
+        "reason_zh": "母女、劳动者、寄生者、醉汉、合唱及讽刺诗人的节目完成；转入古典神祇登场的舞台叙述。"
+      },
+      {
+        "after": 28,
+        "reason_zh": "美惠三女神、命运三女神和复仇三女神各自的一组发言均完整结束。"
+      },
+      {
+        "after": 35,
+        "reason_zh": "恐惧、希望、智慧的寓意组像与佐伊洛－忒耳西忒斯的挑衅、惩罚和群众回应结束。"
+      },
+      {
+        "after": 49,
+        "reason_zh": "御者少年和普路托斯的身份问答完整结束；下一段把要求展示与实际赠礼连在一起。"
+      },
+      {
+        "after": 55,
+        "reason_zh": "赠礼、真伪争议、普路托斯认可少年以及诗性火花的发言结束；转入妇女与吝啬的冲突。"
+      },
+      {
+        "after": 63,
+        "reason_zh": "吝啬与妇女冲突、清场、普路托斯下车以及少年告辞完成。"
+      },
+      {
+        "after": 71,
+        "reason_zh": "开宝箱、群众抢夺与火杖驱散完整结束；转入吝啬的滑稽动作。"
+      },
+      {
+        "after": 74,
+        "reason_zh": "吝啬塑金的插曲和普路托斯的回应完成；潘神队伍开始入场。"
+      },
+      {
+        "after": 83,
+        "reason_zh": "潘神随从的游行、赞歌和地精代表献词完整结束；末段为火灾及灭火。"
+      }
+    ],
+    "whole_scene_note_zh": "原场本身构成完整单元，全部保留，不为凑长度拆分。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F2_S004": {
+    "title_zh": "御花园",
+    "cuts": [
+      {
+        "after": 8,
+        "reason_zh": "关于昨夜火焰幻戏与帝王权力的谈话结束，官员开始报告财政变化。"
+      },
+      {
+        "after": 17,
+        "reason_zh": "纸币展示、质疑伪造、解释皇帝亲签及皇帝接受结果形成完整问答。"
+      },
+      {
+        "after": 23,
+        "reason_zh": "纸币流通效果、原理辩护与授职完成，浮士德随财政官离开；末段保留赏钱及弄臣买地产的喜剧。"
+      }
+    ],
+    "whole_scene_note_zh": "原场本身构成完整单元，全部保留，不为凑长度拆分。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F2_S005": {
+    "title_zh": "昏暗的长廊",
+    "cuts": [
+      {
+        "after": 13,
+        "reason_zh": "召出海伦的困难和母亲们的名称、身份问答完整保留。"
+      },
+      {
+        "after": 26,
+        "reason_zh": "关于空无、孤独、钥匙与战栗的对话完成；转入具体下行与取鼎步骤。"
+      }
+    ],
+    "whole_scene_note_zh": "原场本身构成完整单元，全部保留，不为凑长度拆分。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F2_S006": {
+    "title_zh": "灯火辉煌的厅堂",
+    "cuts": [],
+    "whole_scene_note_zh": "原场本身构成完整单元，全部保留，不为凑长度拆分。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F2_S007": {
+    "title_zh": "骑士厅",
+    "cuts": [
+      {
+        "after": 9,
+        "reason_zh": "观众入座、舞台幻变与仪式主持人就位完成；浮士德开始祈请。"
+      },
+      {
+        "after": "32!",
+        "reason_zh": "帕里斯的召现与宫廷围观评论完整结束；海伦入场说明留给下一段。"
+      },
+      {
+        "after": 61,
+        "reason_zh": "关于海伦的美貌、行为与身份的宫廷议论结束；帕里斯抱起海伦的动作和浮士德干预留在末段。"
+      }
+    ],
+    "whole_scene_note_zh": "原场本身构成完整单元，全部保留，不为凑长度拆分。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F2_S008": {
+    "title_zh": "旧书斋：高拱的哥特式房间",
+    "cuts": [
+      {
+        "after": 4,
+        "reason_zh": "魔鬼查看旧物、抖出昆虫及重新披衣摇铃完成；仆从登场留在下段。"
+      },
+      {
+        "after": 14,
+        "reason_zh": "与仆从的问答、瓦格纳近况和仆从离场完成。"
+      },
+      {
+        "after": 23,
+        "reason_zh": "学士重访、指责旧教育、否定经验及对魔鬼示弱的回应完成；余段保留升级的傲慢和离场评语。"
+      }
+    ],
+    "whole_scene_note_zh": "原场本身构成完整单元，全部保留，不为凑长度拆分。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F2_S009": {
+    "title_zh": "实验室",
+    "cuts": [
+      {
+        "after": 11,
+        "reason_zh": "制造人造人、诞生与人造人的首次发言完整保留；转入外出行动。"
+      },
+      {
+        "after": 23,
+        "reason_zh": "看见浮士德梦境、提出离开阴暗房间和说明古典夜游的理由完整结束；余段商定去处并告别瓦格纳。"
+      }
+    ],
+    "whole_scene_note_zh": "原场本身构成完整单元，全部保留，不为凑长度拆分。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F2_S010": {
+    "title_zh": "法萨卢斯原野",
+    "cuts": [],
+    "whole_scene_note_zh": "原场本身构成完整单元，全部保留，不为凑长度拆分。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F2_S011": {
+    "title_zh": "珀涅俄斯河上游",
+    "cuts": [
+      {
+        "after": 7,
+        "reason_zh": "格里芬称谓争论、黄金和独眼族的插曲结束；魔鬼转向斯芬克斯。"
+      },
+      {
+        "after": "22!",
+        "reason_zh": "与斯芬克斯的身份、星象、谜语与形貌交锋完成；塞壬预奏接在下一段。"
+      },
+      {
+        "after": 35,
+        "reason_zh": "塞壬与斯芬克斯的唱和、浮士德求问海伦和得到寻喀戎的指引完整结束。"
+      }
+    ],
+    "whole_scene_note_zh": "原场本身构成完整单元，全部保留，不为凑长度拆分。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F2_S012": {
+    "title_zh": "珀涅俄斯河下游",
+    "cuts": [
+      {
+        "after": 5,
+        "reason_zh": "河神、宁芙与浮士德对水边幻景的感受告一段落；听见蹄声、叫住喀戎和乘骑放在下一段。"
+      },
+      {
+        "after": 22,
+        "reason_zh": "与喀戎关于教育、医术和英雄的对谈完成；浮士德转问最美的女人。"
+      },
+      {
+        "after": 36,
+        "reason_zh": "关于海伦、年龄、诗与时间的问答及拒绝求治完整结束，抵达目的地；末段为曼托相迎和下行。"
+      }
+    ],
+    "whole_scene_note_zh": "原场本身构成完整单元，全部保留，不为凑长度拆分。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F2_S013": {
+    "title_zh": "重返珀涅俄斯河上游",
+    "cuts": [
+      {
+        "after": 7,
+        "reason_zh": "地震、山岳生成以及斯芬克斯对地震神的回应结束；转入新山上的小民族。"
+      },
+      {
+        "after": 16,
+        "reason_zh": "掘金、生产、战争与伊比库斯之鹤的复仇誓言完整结束；魔鬼开始追逐拉弥亚。"
+      },
+      {
+        "after": 36,
+        "reason_zh": "拉弥亚诱惑、恩普萨插入和追逐幻灭完整结束；魔鬼转入迷路状态。"
+      },
+      {
+        "after": 43,
+        "reason_zh": "迷路、山岳精灵指路及人造人求助魔鬼的问答结束，二人分开。"
+      },
+      {
+        "after": 59,
+        "reason_zh": "阿那克萨戈拉斯与泰勒斯关于地貌和生命的论辩、坠落灾变及离场完整结束；余段保留魔鬼寻找福耳库阿斯、借取形貌的完整交涉。"
+      }
+    ],
+    "whole_scene_note_zh": "原场本身构成完整单元，全部保留，不为凑长度拆分。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F2_S014": {
+    "title_zh": "爱琴海岩湾",
+    "cuts": [
+      {
+        "after": 6,
+        "reason_zh": "塞壬与海中异族的首轮唱和及离去完整结束；泰勒斯带人造人求见涅柔斯。"
+      },
+      {
+        "after": 14,
+        "reason_zh": "向涅柔斯求助、被拒、得到寻找普罗透斯的建议及二人离开完整结束。"
+      },
+      {
+        "after": 29,
+        "reason_zh": "卡比洛斯游行、关于神祇数量的唱和和二人的评论结束；普罗透斯暗中出声。"
+      },
+      {
+        "after": "49!",
+        "reason_zh": "寻找并引出普罗透斯、展示人造人、获得入海建议并决定同行完整结束；忒尔喀涅斯入场接在下段。"
+      },
+      {
+        "after": 57,
+        "reason_zh": "忒尔喀涅斯的歌唱及普罗透斯、泰勒斯关于入海成形的劝告完整结束；转入海上节庆。"
+      },
+      {
+        "after": "68!",
+        "reason_zh": "海上队伍、朵丽斯们与涅柔斯关于青年归属的谈话及青年回应完整结束；伽拉忒亚入场留给最后一段。"
+      }
+    ],
+    "whole_scene_note_zh": "原场本身构成完整单元，全部保留，不为凑长度拆分。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F2_S015": {
+    "title_zh": "斯巴达：墨涅拉俄斯宫前",
+    "cuts": [
+      {
+        "after": 3,
+        "reason_zh": "海伦自述身份和合唱迎接完整结束；转入返乡和丈夫命令的叙述。"
+      },
+      {
+        "after": 8,
+        "reason_zh": "返乡、祭祀准备和海伦进入宫殿的动作完整保留。"
+      },
+      {
+        "after": "13!",
+        "reason_zh": "合唱等待、海伦返回、被问及所见并描述怪异老妇的叙述完成；福耳库阿斯出场留给下段。"
+      },
+      {
+        "after": 15,
+        "reason_zh": "合唱斥责丑怪形貌与老妇反击形成完整首轮冲突；海伦随后插入干预。"
+      },
+      {
+        "after": 33,
+        "reason_zh": "海伦干预、老妇与女歌队轮番对骂的短句交锋结束，海伦再次调停。"
+      },
+      {
+        "after": 51,
+        "reason_zh": "海伦过往经历的对质、身份动摇、晕厥和合唱安抚完整结束。"
+      },
+      {
+        "after": 68,
+        "reason_zh": "祭祀牺牲是谁的问答和将被处死的威胁完整保留，不从多人接续的短诗行中切开。"
+      },
+      {
+        "after": 76,
+        "reason_zh": "威胁被具体化、请求拯救与同意听取方案的对话完成；开始介绍外来领主。"
+      },
+      {
+        "after": 85,
+        "reason_zh": "外来堡垒、居民与领主地位的问答结束；海伦转问领主外貌。"
+      },
+      {
+        "after": 91,
+        "reason_zh": "领主、堡垒、纹章和舞伴的描述及提问回应完整结束；末段完成催促抉择、迫近威胁和逃离。"
+      }
+    ],
+    "whole_scene_note_zh": "原场本身构成完整单元，全部保留，不为凑长度拆分。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F2_S016": {
+    "title_zh": "城堡内院",
+    "cuts": [
+      {
+        "after": 6,
+        "reason_zh": "抵达城堡、仪仗欢迎与认出领主完成；正式接见开始。"
+      },
+      {
+        "after": 10,
+        "reason_zh": "失职瞭望者的指控、辩解与海伦赦免完整结束。"
+      },
+      {
+        "after": 14,
+        "reason_zh": "臣服、献宝、拒绝以珍宝打动海伦与献宝者离去完整结束。"
+      },
+      {
+        "after": 30,
+        "reason_zh": "对话、学习押韵、相互接句、执手及爱情表白完整保留；不在海伦补全浮士德诗句处拆分。"
+      },
+      {
+        "after": 34,
+        "reason_zh": "魔鬼警告、战争动员、封授地域及合唱议论完整结束；末段转向阿卡狄亚的安居愿景。"
+      }
+    ],
+    "whole_scene_note_zh": "原场本身构成完整单元，全部保留，不为凑长度拆分。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F2_S017": {
+    "title_zh": "荫蔽的林苑",
+    "cuts": [
+      {
+        "after": 8,
+        "reason_zh": "魔鬼关于隐居、出生和神奇孩子的叙述完整结束；合唱开始用自己的神话知识回应。"
+      },
+      {
+        "after": "11!",
+        "reason_zh": "合唱对比赫尔墨斯、琴声响起与魔鬼退开的场面完整结束；一家三人登场说明归入下一段。"
+      },
+      {
+        "after": 25,
+        "reason_zh": "一家相聚、限制孩子跳跃及转为共同舞蹈完整结束，以原文停顿为界。"
+      },
+      {
+        "after": 32,
+        "reason_zh": "追逐少女、她挣脱并化焰离去完整结束；孩子转向登高。"
+      },
+      {
+        "after": 42,
+        "reason_zh": "孩子登高、眺望战争与合唱关于诗的劝告完成；下段把参战决意、飞跃、坠落和挽歌连在一起。"
+      },
+      {
+        "after": 53,
+        "reason_zh": "决意飞离、父母阻拦、坠亡、地下呼唤及完整挽歌结束，原文音乐停止。"
+      },
+      {
+        "after": 59,
+        "reason_zh": "海伦消失、浮士德随衣云离开、魔鬼收拾遗物和歌队首领离去完整结束；余段保留歌队的全部分组变形与落幕说明。"
+      }
+    ],
+    "whole_scene_note_zh": "原场本身构成完整单元，全部保留，不为凑长度拆分。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F2_S018": {
+    "title_zh": "高山",
+    "cuts": [
+      {
+        "after": "3!",
+        "reason_zh": "浮士德云中归来的独白结束；魔鬼七里靴登场的说明接入下一段。"
+      },
+      {
+        "after": 9,
+        "reason_zh": "地貌由来与魔鬼看待自然的争辩结束；转向浮士德的新欲望。"
+      },
+      {
+        "after": "25!",
+        "reason_zh": "都市、享乐、名望与征服海岸的猜测和澄清完整保留；战争声响接入下一段。"
+      },
+      {
+        "after": 38,
+        "reason_zh": "帝国内乱的叙述、皇帝近况和两人前去观察的动作完整结束；末段制定参战交换条件并介绍三个助手。"
+      }
+    ],
+    "whole_scene_note_zh": "原场本身构成完整单元，全部保留，不为凑长度拆分。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F2_S019": {
+    "title_zh": "山前阵地",
+    "cuts": [
+      {
+        "after": 10,
+        "reason_zh": "三处阵地与敌军形势的评估完成；两轮侦察报告放在下一段。"
+      },
+      {
+        "after": "16^",
+        "reason_zh": "两位侦察者的报告及皇帝决定挑战对手完整结束；浮士德与三个助手登场的说明接到下段。"
+      },
+      {
+        "after": 22,
+        "reason_zh": "浮士德解释援军来由和皇帝的拒绝、再劝说及表态完整结束。"
+      },
+      {
+        "after": 35,
+        "reason_zh": "挑战被拒后的开战决定、三路部署与三个助手分别出阵完整保留。"
+      },
+      {
+        "after": 44,
+        "reason_zh": "幽灵援军出现、皇帝惊疑与魔鬼解释其来源的问答完整结束；转入战场征兆。"
+      },
+      {
+        "after": 52,
+        "reason_zh": "皇帝感谢、鹰与狮鹫的征兆、右路突破和胜利宣告完整结束；左路危险从下一段开始。"
+      },
+      {
+        "after": 63,
+        "reason_zh": "左路危机、乌鸦传讯、将领辞令和皇帝交权退入帐篷完成；末段保留水攻与最终胜势。"
+      }
+    ],
+    "whole_scene_note_zh": "原场本身构成完整单元，全部保留，不为凑长度拆分。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F2_S020": {
+    "title_zh": "敌帝的营帐",
+    "cuts": [
+      {
+        "after": "24^",
+        "reason_zh": "劫掠、卫兵驱赶和卫兵对异常情形的交谈结束；皇帝与诸侯到场及卫兵退下的说明归入下一段。"
+      },
+      {
+        "after": 28,
+        "reason_zh": "前两项宫廷授职与受封者的回应完整保留；不在一项任命和答谢之间切分。"
+      },
+      {
+        "after": 32,
+        "reason_zh": "后两项宫廷授职与回应完整结束；皇帝转入加授政治地位。"
+      },
+      {
+        "after": 40,
+        "reason_zh": "政治封授、世袭规定、文书确认和世俗诸侯退场完整结束；末段完整保留主教的要求与屡次折返。"
+      }
+    ],
+    "whole_scene_note_zh": "原场本身构成完整单元，全部保留，不为凑长度拆分。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F2_S021": {
+    "title_zh": "开阔的原野",
+    "cuts": [],
+    "whole_scene_note_zh": "原场本身构成完整单元，全部保留，不为凑长度拆分。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F2_S022": {
+    "title_zh": "宫殿",
+    "cuts": [
+      {
+        "after": 11,
+        "reason_zh": "归航、卸货、分利争执与货物移走的动作完成；随后魔鬼询问浮士德为何不快。"
+      }
+    ],
+    "whole_scene_note_zh": "原场本身构成完整单元，全部保留，不为凑长度拆分。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F2_S023": {
+    "title_zh": "深夜",
+    "cuts": [],
+    "whole_scene_note_zh": "原场本身构成完整单元，全部保留，不为凑长度拆分。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F2_S024": {
+    "title_zh": "午夜",
+    "cuts": [
+      {
+        "after": 21,
+        "reason_zh": "四个灰衣妇人的接近、三人离开、浮士德察觉来客和警告完成；余段完整保留忧愁的自述、争辩和失明。"
+      }
+    ],
+    "whole_scene_note_zh": "原场本身构成完整单元，全部保留，不为凑长度拆分。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F2_S025": {
+    "title_zh": "宫殿大前庭",
+    "cuts": [],
+    "whole_scene_note_zh": "保留全场：掘墓、误听施工、最后愿景和死亡构成紧密动作链，约六百空白分词，不再为均匀长度拆开。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F2_S026": {
+    "title_zh": "埋葬",
+    "cuts": [
+      {
+        "after": 5,
+        "reason_zh": "掘墓唱和与魔鬼布置夺魂防线完整结束；天堂使者的到来开启下一单元。"
+      },
+      {
+        "after": 11,
+        "reason_zh": "天使撒花、群魔退散与魔鬼独自承受灼烧完整结束；余段连续保留诱惑、灵魂被带走和魔鬼发觉失手。"
+      }
+    ],
+    "whole_scene_note_zh": "原场本身构成完整单元，全部保留，不为凑长度拆分。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  },
+  "F2_S027": {
+    "title_zh": "山涧",
+    "cuts": [
+      {
+        "after": 10,
+        "reason_zh": "隐修者、童子询问、借眼看世界和被引向更高处完整结束。"
+      },
+      {
+        "after": 15,
+        "reason_zh": "童子迎接、天使携魂及其解释、童子接纳完整保留；末段集中保留圣母、悔罪者、格蕾琴的祈求与终曲。"
+      }
+    ],
+    "whole_scene_note_zh": "原场本身构成完整单元，全部保留，不为凑长度拆分。",
+    "reviewer": "ChatGPT",
+    "review_type": "model_semantic_review_in_this_conversation"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Reviewed Faust source segment",
+  "type": "object",
+  "required": [
+    "segment_id",
+    "work_id",
+    "scene_id",
+    "scene_group_id",
+    "split",
+    "target_text",
+    "event_ids",
+    "atom_ids",
+    "source_sha256",
+    "semantic_review_status",
+    "boundary_after_reason_zh",
+    "word_count",
+    "token_count"
+  ],
+  "properties": {
+    "segment_id": {
+      "type": "string",
+      "pattern": "^F[12]_S[0-9]{3}_P[0-9]{3}$"
+    },
+    "work_id": {
+      "enum": [
+        "F1",
+        "F2"
+      ]
+    },
+    "scene_id": {
+      "type": "string"
+    },
+    "scene_group_id": {
+      "type": "string"
+    },
+    "scene_title": {
+      "type": "string"
+    },
+    "scene_title_zh": {
+      "type": "string"
+    },
+    "split": {
+      "enum": [
+        "train",
+        "validation",
+        "test"
+      ]
+    },
+    "target_text": {
+      "type": "string",
+      "minLength": 1
+    },
+    "target_text_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "event_ids": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    },
+    "atom_ids": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "word_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "token_count": {
+      "type": "null"
+    },
+    "source_verse_numbers": {
+      "type": "null"
+    },
+    "semantic_review_status": {
+      "const": "reviewed_by_ChatGPT_in_this_conversation"
+    },
+    "boundary_after_reason_zh": {
+      "type": "string",
+      "minLength": 1
+    },
+    "context_after_is_reference_only": {
+      "const": true
+    }
+  },
+  "additionalProperties": true
+}

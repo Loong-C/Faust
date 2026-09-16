@@ -1,0 +1,41 @@
+{
+  "notes_zh": "本表记录部分实质性改订；不是全部措辞编辑的穷尽日志。另改写了两处普通五词重合，避免直接沿用原文表述。",
+  "changes": [
+    {
+      "index": 186,
+      "reason_zh": "修正中文指代，进入者仅为忧虑。",
+      "old": "前三者中的三名被富者门户挡住",
+      "new": "除忧虑外的三者被富者门户挡住"
+    },
+    {
+      "index": 93,
+      "reason_zh": "避免把原文的并列关系固定解释成吝啬者在箱内。",
+      "old": "巨龙抬来装着金子和吝啬者的箱子",
+      "new": "巨龙把金箱与吝啬者带到他身边"
+    },
+    {
+      "index": 182,
+      "reason_zh": "补回鲍喀斯有关牺牲人命的指控，仍明确是人物声称。",
+      "old": "Baucis misstraut den nächtlichen Vorgängen beim Bau und berichtet von Leid und ungewöhnlichen Erscheinungen.",
+      "new": "Baucis misstraut den nächtlichen Vorgängen beim Bau und behauptet, Menschen seien geopfert worden; sie berichtet von Schreien und ungewöhnlichen Erscheinungen."
+    },
+    {
+      "index": 182,
+      "reason_zh": "中文同步德语的人物指控。",
+      "old": "鲍喀斯则怀疑夜间工程，报告呼号和异象",
+      "new": "鲍喀斯则怀疑夜间工程，声称有人命牺牲，报告呼号和异象"
+    },
+    {
+      "index": 33,
+      "reason_zh": "将鼠的状态收窄为歌中明确表现的倒地，避免把濒死写成已明示死亡。",
+      "old": "und stirbt schließlich in der Küche.",
+      "new": "und bricht schließlich in der Küche zusammen."
+    },
+    {
+      "index": 33,
+      "reason_zh": "中文收窄同一处推断。",
+      "old": "最后倒在厨房死去的故事",
+      "new": "最后倒在厨房、濒临死亡的故事"
+    }
+  ]
+}

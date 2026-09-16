@@ -1,0 +1,41 @@
+{
+  "all_checks_passed": true,
+  "check_count": 61,
+  "failed_checks": [],
+  "corpus_statistics": {
+    "leaf_content_scenes": 55,
+    "xml_scene_nodes": 56,
+    "source_atoms": 2122,
+    "partition_atoms": 2143,
+    "source_events": 15062,
+    "body_headings": 63,
+    "segments": 195,
+    "words": 78174,
+    "min_words": 42,
+    "median_words": 389,
+    "max_words": 806,
+    "internal_boundaries_reviewed": 140,
+    "original_scene_endings_reviewed": 55,
+    "source_annotation_records": 9,
+    "splits": {
+      "train": {
+        "segments": 158,
+        "leaf_scenes": 44,
+        "words": 62072,
+        "verse_elements": 9760
+      },
+      "validation": {
+        "segments": 18,
+        "leaf_scenes": 5,
+        "words": 8111,
+        "verse_elements": 1311
+      },
+      "test": {
+        "segments": 19,
+        "leaf_scenes": 6,
+        "words": 7991,
+        "verse_elements": 1225
+      }
+    }
+  }
+}

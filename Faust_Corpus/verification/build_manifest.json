@@ -1,0 +1,14 @@
+{
+  "version": "2.0",
+  "source_hashes": {
+    "F1": "24069c0cf849d19a18badfcb7ac0b2e013ac2f9b77111b3a879b71d32ff2aaa4",
+    "F2": "32295a15d07b825b934166a496dfa8321822a9fcff6d162c7025d1483c12ed7c"
+  },
+  "decision_sha256": "995dce3ad22330552aa74fd9c6ff8d24e0642eaa5a8710f148abbb0c32833f4c",
+  "builder_sha256": "64f3d4028d0e935122c5aa787d8914a9d62078163e9b13185a2bab30561c1581",
+  "external_llm_api_calls": 0,
+  "semantic_review": "Performed by ChatGPT in the conversation; frozen decisions reproduced by script",
+  "sentence_rewriting": false,
+  "original_verse_numbers_invented": false,
+  "model_token_count_available": false
+}

@@ -1,0 +1,108 @@
+{
+  "deterministic_rebuild_passed": true,
+  "compared_files": 17,
+  "files": [
+    {
+      "path": "data/atoms.jsonl",
+      "before_sha256": "a15a333daf02d1b8a466e74e365ecbc7cddc38147cb5a386bb3b6fabf4e0af2b",
+      "after_sha256": "a15a333daf02d1b8a466e74e365ecbc7cddc38147cb5a386bb3b6fabf4e0af2b",
+      "identical": true
+    },
+    {
+      "path": "data/characters.jsonl",
+      "before_sha256": "b818f5fad768b7bc191040ae6786e888e095511d49da0544bd239e1be9bae67c",
+      "after_sha256": "b818f5fad768b7bc191040ae6786e888e095511d49da0544bd239e1be9bae67c",
+      "identical": true
+    },
+    {
+      "path": "data/document_structure.json",
+      "before_sha256": "51fa62a3c3d2377e56f389f0f0ccac1a4a9221e94af7b03956afba639e41a3ab",
+      "after_sha256": "51fa62a3c3d2377e56f389f0f0ccac1a4a9221e94af7b03956afba639e41a3ab",
+      "identical": true
+    },
+    {
+      "path": "data/events.jsonl",
+      "before_sha256": "4bf8bf45f2596e2a87dc49b500fd3198fca12110812c53cefe3d26e7119945b2",
+      "after_sha256": "4bf8bf45f2596e2a87dc49b500fd3198fca12110812c53cefe3d26e7119945b2",
+      "identical": true
+    },
+    {
+      "path": "data/inline_markup.jsonl",
+      "before_sha256": "a41bb2f661ced55c8375a59f40271cbd4a811ab8f48bedbab9b9362a94e0ab76",
+      "after_sha256": "a41bb2f661ced55c8375a59f40271cbd4a811ab8f48bedbab9b9362a94e0ab76",
+      "identical": true
+    },
+    {
+      "path": "data/master_segments.jsonl",
+      "before_sha256": "690a1c4433423b7425ac2bdd5124d2be7da4916c44d1fd4358438ca0dc102708",
+      "after_sha256": "690a1c4433423b7425ac2bdd5124d2be7da4916c44d1fd4358438ca0dc102708",
+      "identical": true
+    },
+    {
+      "path": "data/scenes.jsonl",
+      "before_sha256": "12b86896520410a78e45e0ddf549280a75ddb088c97782b0430ad512d58fe758",
+      "after_sha256": "12b86896520410a78e45e0ddf549280a75ddb088c97782b0430ad512d58fe758",
+      "identical": true
+    },
+    {
+      "path": "data/source_atoms.jsonl",
+      "before_sha256": "dca7c9ae312bbcbeb10423f4cca87426f52761418198723cf19e5a758de14f79",
+      "after_sha256": "dca7c9ae312bbcbeb10423f4cca87426f52761418198723cf19e5a758de14f79",
+      "identical": true
+    },
+    {
+      "path": "data/source_headings.jsonl",
+      "before_sha256": "ba21fd400a753063f604956c6e60dbc9cbff691007e7da18d0b663864d20ba7f",
+      "after_sha256": "ba21fd400a753063f604956c6e60dbc9cbff691007e7da18d0b663864d20ba7f",
+      "identical": true
+    },
+    {
+      "path": "data/works.json",
+      "before_sha256": "7970ff1c621cf18c99c1094631e4f96ee7fffb1ca70b14ec297e41dda9162ef3",
+      "after_sha256": "7970ff1c621cf18c99c1094631e4f96ee7fffb1ca70b14ec297e41dda9162ef3",
+      "identical": true
+    },
+    {
+      "path": "splits/test.jsonl",
+      "before_sha256": "b3552c9b799d6bd409728b1c02dac78d925501aee5888a6053dbbad02ef6beb5",
+      "after_sha256": "b3552c9b799d6bd409728b1c02dac78d925501aee5888a6053dbbad02ef6beb5",
+      "identical": true
+    },
+    {
+      "path": "splits/train.jsonl",
+      "before_sha256": "e53c0e7289b39ad9155165beadef8cc17d1b79ec7ec1e4edd824e9d2f1bf804d",
+      "after_sha256": "e53c0e7289b39ad9155165beadef8cc17d1b79ec7ec1e4edd824e9d2f1bf804d",
+      "identical": true
+    },
+    {
+      "path": "splits/validation.jsonl",
+      "before_sha256": "6e9c1bc7e16d43b324d1f1d832617e35a3f2fbec4b3cbc8ec0f2290dfff8ee16",
+      "after_sha256": "6e9c1bc7e16d43b324d1f1d832617e35a3f2fbec4b3cbc8ec0f2290dfff8ee16",
+      "identical": true
+    },
+    {
+      "path": "review/boundary_review.jsonl",
+      "before_sha256": "46f995ebe03a7b401e2e9a998599f3de8ec42e78d4fbbcf19448f4538c845534",
+      "after_sha256": "46f995ebe03a7b401e2e9a998599f3de8ec42e78d4fbbcf19448f4538c845534",
+      "identical": true
+    },
+    {
+      "path": "review/source_annotations.jsonl",
+      "before_sha256": "e5990f86a0f90ed88d46146b67db0897d5f8ca3ed4e42cb18f28b31bee03ec59",
+      "after_sha256": "e5990f86a0f90ed88d46146b67db0897d5f8ca3ed4e42cb18f28b31bee03ec59",
+      "identical": true
+    },
+    {
+      "path": "corpus_preview_de.txt",
+      "before_sha256": "45527d125a484329f9079fe07eb357853721391d75f79d8f3a0f695e14c20d89",
+      "after_sha256": "45527d125a484329f9079fe07eb357853721391d75f79d8f3a0f695e14c20d89",
+      "identical": true
+    },
+    {
+      "path": "切分目录_中文.txt",
+      "before_sha256": "b8b778ab932ef6894a6505c27be5c2b88620531fdfd2b8aa0c7c8669323bc80a",
+      "after_sha256": "b8b778ab932ef6894a6505c27be5c2b88620531fdfd2b8aa0c7c8669323bc80a",
+      "identical": true
+    }
+  ]
+}

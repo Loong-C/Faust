@@ -1,0 +1,47 @@
+{
+  "all_checks_passed": true,
+  "check_count": 10,
+  "checks": [
+    {
+      "check": "dry_run_has_no_file_writes",
+      "passed": true
+    },
+    {
+      "check": "apply_successful",
+      "passed": true
+    },
+    {
+      "check": "apply_preserves_every_parent_file",
+      "passed": true
+    },
+    {
+      "check": "repeat_is_idempotent",
+      "passed": true
+    },
+    {
+      "check": "changed_local_file_rejected_without_writes",
+      "passed": true
+    },
+    {
+      "check": "wrong_parent_checksum_rejected",
+      "passed": true
+    },
+    {
+      "check": "wrong_state_version_rejected",
+      "passed": true
+    },
+    {
+      "check": "corrupt_payload_rejected",
+      "passed": true
+    },
+    {
+      "check": "path_traversal_rejected",
+      "passed": true
+    },
+    {
+      "check": "unlisted_member_rejected",
+      "passed": true
+    }
+  ],
+  "tests_touch_real_project": false
+}
