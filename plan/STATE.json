@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
-  "release_id": "faust-sft-0.1.0",
-  "parent_release_id": "corpus-reviewed-v2",
-  "stage": "stage2_scene_descriptions_complete_not_trained",
+  "release_id": "faust-lora-prep-0.1.0",
+  "parent_release_id": "faust-sft-0.1.0",
+  "stage": "stage3_training_prepared_not_trained",
   "annotation_version": "sft_v1",
   "master_corpus_path": "Faust_Corpus/data/master_segments.jsonl",
   "master_corpus_sha256": "690a1c4433423b7425ac2bdd5124d2be7da4916c44d1fd4358438ca0dc102708",
@@ -15,9 +15,14 @@
     "validation": 18,
     "test": 19
   },
-  "manifest_path": "plan/releases/faust-sft-0.1.0/manifest.json",
+  "manifest_path": "plan/releases/faust-lora-prep-0.1.0/manifest.json",
   "feedback_path": "plan/feedback.jsonl",
   "last_stage_complete": "neutral_German_specs_with_Chinese_mirrors",
-  "next_stage": "choose_baseline_model_and_training_configuration",
-  "sync_mode": "user_transfers_versioned_archives; no automatic remote access"
+  "next_stage": "user_runs_GPU_smoke_then_baseline_training",
+  "sync_mode": "GitHub branch and commit; local training artifacts shared explicitly",
+  "training_config_path": "training/config.json",
+  "training_notebook_path": "training/Faust_LoRA_Colab.ipynb",
+  "training_data_release": "faust-sft-0.1.0",
+  "training_branch": "training/lora-v0.1.0",
+  "training_status": "not_started"
 }

@@ -1,0 +1,29 @@
+{
+  "release": "faust-lora-prep-0.1.0",
+  "validated_date": "2026-09-16",
+  "unit_tests": {
+    "run": 28,
+    "passed": 28,
+    "skipped": 0
+  },
+  "shell_syntax": "passed",
+  "notebook_schema_and_code_syntax": "passed",
+  "actual_data_counts": {
+    "train": 158,
+    "validation": 18,
+    "test": 19
+  },
+  "real_pytorch_CPU_collator_forward_backward": "passed",
+  "source_pairs_git_blob_matches_remote": "03347610f4dc0aec150ca3710b15c9b489409c7f",
+  "data_fingerprint": "d8d22d470be75432428cb667bf4223469dc6da11dda8a62502841b8605585d94",
+  "not_executed": [
+    "real Qwen tokenizer length audit",
+    "tiny Qwen3 Transformers/PEFT/Trainer integration_smoke (executed automatically after installation)",
+    "8B model loading and bitsandbytes CUDA kernels",
+    "full GPU smoke / training",
+    "end-to-end Colab execution"
+  ],
+  "reason": "Preparation runtime has CPU PyTorch 2.10.0 only; external package/model download unavailable. No fabricated GPU result.",
+  "training_started": false,
+  "paid_resources_created": false
+}

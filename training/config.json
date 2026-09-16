@@ -1,0 +1,28 @@
+{
+  "release": "faust-lora-prep-0.1.0",
+  "model_id": "Qwen/Qwen3-8B-Base",
+  "model_revision": "49e3418",
+  "max_length": 4096,
+  "epochs": 3,
+  "learning_rate": 5e-05,
+  "rank": 16,
+  "alpha": 32,
+  "dropout": 0.05,
+  "target_modules": [
+    "q_proj",
+    "k_proj",
+    "v_proj",
+    "o_proj",
+    "gate_proj",
+    "up_proj",
+    "down_proj"
+  ],
+  "gradient_accumulation_steps": 8,
+  "eval_save_steps": 10,
+  "early_stopping_patience": 2,
+  "seed": 20260916,
+  "max_new_tokens": 768,
+  "temperature": 0.8,
+  "top_p": 0.9,
+  "revision_policy": "resolve pinned HF short commit 49e3418 to immutable full SHA; reuse on resume"
+}

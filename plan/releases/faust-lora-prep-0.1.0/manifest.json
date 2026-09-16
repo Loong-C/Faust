@@ -1,0 +1,30 @@
+{
+  "release": "faust-lora-prep-0.1.0",
+  "base_repository_commit": "6d3630e2ee216b4fb7ae590c3dd01f29636720a1",
+  "data_release": "faust-sft-0.1.0",
+  "training_started": false,
+  "files": {
+    ".gitignore": "a986fe7f0d85686b6b087a77f8082aefacfb2479f014fd3152273ceb0664e6ff",
+    ".gitattributes": "2c2d1e4ed56399dcbbae64a1f1b3a3c25ce9ca3609fd83e070b2654ae3d77989",
+    "README.md": "b2a9fb50563bfb9fcca221473dcb1c184a7117dac78764ae5fcd3d4270839096",
+    "models/README.txt": "d495f02000f241d783faf5649958f4ed08ddbc43f614fe687bea79eb5b5e2390",
+    "plan/STATE.json": "0871ba2801b080503d8ab280a1c1ea3aa20e9c41d5a24a3eb438e56dc66c66a1",
+    "plan/TRAINING_SYNC.txt": "6c1e5d6dcaaf6b67a3232d3e8ce8ec942c84ba356c2bce3664222b2ddfa58ad2",
+    "eval/original_scenes.jsonl": "bb565c1768239fbbb3ab9831979de1bedf9240f91789d78ead3f70505379c67c",
+    "training/Faust_LoRA_Colab.ipynb": "a727d99f366f442da90aed611869de26b5303fa6e40e447254b339a8eaed8aa2",
+    "training/README_\u8bad\u7ec3\u8bf4\u660e.txt": "58b1c5798adcacdd247f958b25cad8bef1ddaf293e9904b9c8ea31c17e96882e",
+    "training/bootstrap.py": "52288d04638c628c2771694a5376b32d7d557beb4d17fb20818579f72357c684",
+    "training/common.py": "93efa2dd9366adc38532bcf7fa9a8febe64b84db5e59111209b0beecb0c68ef1",
+    "training/compare.py": "28a7213503c8d0b377c4b57023b4fd1897f990f6d22fe9a14df6ad1865f2b11e",
+    "training/config.json": "3f29535190e70f9ecf6deaa4c9e9848220e26852254fed8e6cb906facebac653",
+    "training/data_lock.json": "4cd5477f6a1ff1a1908a63d0cb0413da6bac7b39843e29fbac9cd32125cf31c0",
+    "training/integration_smoke.py": "5637458ea9c9e798d7c4ad39fe70c38f2e318458f6f551d657a4d3306a83baee",
+    "training/offline_tests.txt": "fb9729fa603d7492a20a237cbe1739d8b855c39306e076792f43ec299cdb8f80",
+    "training/requirements.txt": "cb3006ff3fabb8de04d4edee22bd884f140058e15850f80e2b4a00697aaaced4",
+    "training/run.sh": "09c5a88e094a9adb1c9a2f998e0708ca2b6f1fc5ae485e45cfef29c7474043ba",
+    "training/test_training.py": "6ad9c490e7773becc2aeb649fbc354b5735f8442d396a04327fc69ee212fd6a5",
+    "training/train.py": "6d84ecaa61a9dd5234ff3b443226d1e5acd6ece9ac1d1aaf4870b0209ef26d4b",
+    "training/verification.json": "b3178f2474c01f8cbf014e27e6483919aec35a824de6cd2619c415d6fc7f7836"
+  },
+  "method": "add training and eval, update plan state; Faust_Corpus bytes unchanged"
+}
