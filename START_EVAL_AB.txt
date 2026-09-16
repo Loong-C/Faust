@@ -1,0 +1,27 @@
+Faust 本机A/B评测：faust-eval-0.1.0
+
+使用已经完成训练的那个本地仓库和同一WSL2用户。先保存你自己的未提交修改，然后在仓库中执行 git fetch origin，再执行 git switch --track origin/eval/faust-lora-v0.1.0。如果本地已经有这个分支，使用 git switch eval/faust-lora-v0.1.0 和 git pull --ff-only。不要运行git clean，也不要删除runs；训练权重不在Git中，新克隆的仓库不会自动带有它。
+
+Windows用户双击仓库根目录的 Test_Faust_AB.cmd。Linux或WSL终端在仓库根目录运行 bash eval/ab_v1/start.sh all。它只复用训练时已建好的独立环境，不安装依赖、不重新训练、不租算力、不调用收费API、不上传权重。默认离线使用训练时已缓存的精确底模revision。网络断开并不妨碍缓存齐全时运行。
+
+默认检查 runs/local8gb-r8/train/adapter/ 内已完成的rank-8 adapter，大小和SHA-256必须与 models/faust-local8gb-r8-20260916.json 相同。请先把这个adapter目录单独备份。更换了磁盘位置时，可在WSL中执行 bash eval/ab_v1/start.sh all --adapter /实际路径/adapter。不要改登记的哈希绕过检查。
+
+首次执行会核对语料和题目、加载一个4bit底模、检验LoRA开关是否真正改变logits及能否恢复，再做两段短生成；短生成不算入正式结果。随后运行12个开发场景，每题3个相同的配对随机种子，每个种子分别关闭和开启LoRA，合计72段输出、36组对照。原来的4个保留场景默认不运行。
+
+两组使用相同的训练提示格式、底模revision、精度、温度0.85、top_p 0.9、top_k 50及1024个新token上限，不加入检索例文。输入不会被截断；长度超限或显存不足就停止，不会偷偷缩短、重采样或换模型。达到1024个新token的输出标记为length，保留它而不假称完整结束。相同种子不意味着两组会生成相同词语，也不保证不同软件或硬件上逐位一致。
+
+程序逐段写入完整结果。意外停止后，用同一命令再次运行即可跳过已校验的候选，继续缺少的部分。代码、配置、模型或运行环境变化时，不混用旧结果；请用 --run-id 新名称。实际的运行上下文及分词器指纹都会登记。
+
+成功后，供你分享的文件在 eval/results/r8-dev-v1/，最重要的是 blind_review.zip 和 blind_review.jsonl。ZIP只含匿名德文输出、中文题目说明、空白评阅表和阅读说明，不含A/B身份和权重。你不需要读德文，直接将blind_review.zip上传给助手即可。也可只把该results子目录提交到GitHub，让助手读取 blind_review.jsonl。不要同时提交或提前分享 runs/eval-r8-dev-v1/ 中的 raw_generations.jsonl、diagnostics.jsonl、manifest.json 与 private/reveal.json，否则不再是盲评。
+
+runs/eval-r8-dev-v1/ 保存完整运行记录、每段原始token、模型身份、自动诊断、短生成和解盲密钥。它受已有.gitignore保护。不要删除这个目录；它是复现与续跑所需的原始记录。公开盲评文件的标识在重导出时保持不变；你填过的CSV不会被自动覆盖。
+
+需要分步操作时，bash eval/ab_v1/start.sh smoke 只做推理开关和短生成检查；bash eval/ab_v1/start.sh run 执行开发集并导出。结果完整但导出中断时，bash eval/ab_v1/start.sh export 无需显卡即可重新导出。只检验仓库文件而不要求本地权重，运行 python3 eval/ab_v1/run.py check --data-only。
+
+保留场景用于配置固定后的补充确认。明确决定使用后，执行 bash eval/ab_v1/start.sh all --set holdout --allow-holdout --run-id r8-holdout-v1。这只运行4个保留题、24段输出，不会混入开发集。反复根据保留结果调参后，它就不再是未使用的最终评测；应记录用途变化。
+
+中文只说明评测题目，不是生成结果的译文。语言质量仍需直接阅读德文；自动程序仅检查空输出、到达长度上限、重复程度、训练提示标记混入，以及与原著连续词组的重合。连续16个规范化词匹配只触发复核标记，不直接等于抄袭，也不能区分来自预训练还是本次微调。复述诊断覆盖完整195段原著，并分别标注train、validation、test来源；原著不会作为生成提示送入模型。
+
+本版53项离线测试及Python/Bash语法检查已完成，包含真实语料哈希和CPU模拟推理路径。开发环境没有你的GPU、训练环境和adapter，尚未执行真实Unsloth/CUDA生成或Windows双击端到端运行；第一次本机运行才是这些项目的实际验证。短生成通过也不保证所有长输出都能在8GB显存中完成。
+
+如果环境或缓存找不到，请确认使用了训练时的WSL发行版、Linux用户、FAUST_ENV_HOME和HF_HOME。本入口不会通过重新安装或重新训练来掩盖路径问题。自定义发行版可用 powershell -File eval/ab_v1/launch.ps1 -Distro 你的发行版，或直接进入对应WSL终端执行bash入口。

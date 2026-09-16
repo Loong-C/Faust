@@ -9,3 +9,11 @@ training/local8gb/** text eol=lf
 *.ps1 text eol=lf
 *.cmd text eol=crlf
 START_LOCAL_8GB.txt text eol=lf
+# Evaluation text metadata: deterministic checkout, without changing corpus bytes.
+eval/**/*.json text eol=lf
+eval/**/*.jsonl text eol=lf
+eval/**/*.txt text eol=lf
+eval/**/*.csv text eol=lf
+models/*.json text eol=lf
+plan/releases/faust-eval-*.json text eol=lf
+START_EVAL_AB.txt text eol=lf
