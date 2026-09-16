@@ -1,0 +1,25 @@
+{
+  "release": "faust-eval-0.1.0",
+  "base_git_commit": "9906145032f8936ce3f6906b9ef6650cab06d9be",
+  "model_record": "models/faust-local8gb-r8-20260916.json",
+  "cases_file": "eval/original_scenes.jsonl",
+  "locked_git_blobs": {
+    "training/local8gb/core.py": "fbe466fbf0d7029df8952815edbbfa54459f6b13",
+    "models/faust-local8gb-r8-20260916.json": "77f8bb4309e128d8d0bdb9a9799818ce7bd0ba9c",
+    "eval/original_scenes.jsonl": "3c4a88636fd2c3095ec3c71668fc8d599e55bd23"
+  },
+  "seeds": [3407, 42, 20260916],
+  "generation": {
+    "max_new_tokens": 1024,
+    "do_sample": true,
+    "temperature": 0.85,
+    "top_p": 0.9,
+    "top_k": 50,
+    "num_beams": 1,
+    "repetition_penalty": 1.0,
+    "no_repeat_ngram_size": 0
+  },
+  "smoke_max_new_tokens": 64,
+  "copy_warning_min_words": 16,
+  "expected_cases": {"dev": 12, "holdout": 4}
+}

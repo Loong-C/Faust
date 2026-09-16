@@ -1,0 +1,35 @@
+{
+  "release": "faust-eval-0.1.0",
+  "prepared_at_utc": "2026-09-16T08:39:44.461316+00:00",
+  "base_git_commit": "9906145032f8936ce3f6906b9ef6650cab06d9be",
+  "offline_tests": {
+    "run": 53,
+    "passed": 53,
+    "failed": 0,
+    "skipped": 0
+  },
+  "python_syntax_checked": true,
+  "bash_syntax_checked": true,
+  "real_frozen_data_hashes_checked": true,
+  "full_corpus_overlap_exact_checks": 3,
+  "upstream_git_blob_matches": {
+    "training/local8gb/core.py": "fbe466fbf0d7029df8952815edbbfa54459f6b13",
+    "models/faust-local8gb-r8-20260916.json": "77f8bb4309e128d8d0bdb9a9799818ce7bd0ba9c",
+    "eval/original_scenes.jsonl": "3c4a88636fd2c3095ec3c71668fc8d599e55bd23"
+  },
+  "not_executed": [
+    "real adapter loading (weights not available here)",
+    "CUDA/Unsloth generation",
+    "Windows/WSL2 double-click end-to-end",
+    "literary-quality evaluation"
+  ],
+  "paid_services_created": false,
+  "training_invoked": false,
+  "base_data_modified": false,
+  "test_environment": {
+    "python": "3.13.5",
+    "gpu_available": false
+  },
+  "tests_sha256": "d3c745bd56bb97df202add897e7ce5d29061bd156b83a0a4a491646875af4321",
+  "git_text_crlf_compatibility_checked": true
+}

@@ -1,0 +1,21 @@
+评测协议与解释边界
+
+这一版只研究一个问题：在同一个已经量化的Qwen3-8B-Base上，开启已训练的rank-8 LoRA之后，面对原先冻结的原创题目，生成是否改变。对照是相同NF4快照的LoRA关闭状态，不是另一个全精度底模，也不是聊天模型。PEFT bias=none、没有额外modules_to_save、未合并adapter是开关对照成立的前提。程序会逐层检查开关状态，并以开启、关闭、重新开启的logits验证作用与恢复。该检查不是文学评价。
+
+题库原样沿用eval/original_scenes.jsonl。NEW_01至NEW_12为开发题，NEW_13至NEW_16为保留题；描述中的数学成果属于虚构情境。默认12题×3种子×2条件，共72次正式生成。短生成另记smoke，不混入72条。采用所有输出而不是只保留最好看的版本，达到长度上限、空白或重复均是结果，需要如实分析。
+
+开发集第一轮固定temperature=0.85、top_p=0.9、top_k=50、repetition_penalty=1.0、max_new_tokens=1024，不做外部检索，不重新润色，也不生成中文译文作为评判依据。提示前缀直接调用已锁定的训练format_prompt，且不使用聊天模板。生成只接收题目的德语instruction，不接收中文对照或原作target。
+
+模型权重、底模revision、配置、实际环境、代码与分词器指纹固定于运行manifest。使用同一组随机种子是配对实验控制，不是可移植的逐位复现承诺。改变配置需开新run-id；不同模型版本应配套新的评测配置和登记，不能改旧adapter校验值来覆盖历史结果。
+
+盲评包中的A/B按每个场景和种子组合单独打乱，并用本地秘密密钥稳定生成，公开包中不含解盲映射。请先阅读blind_review.jsonl完成判断，再读取private/reveal.json。可用review_scores.csv填写content、voices、language、overall，值为A、B、tie、both_bad、uncertain，不能判断时留空。每项应引用具体原句解释，不以“古词多”“押韵多”自动等同于更好。三个种子属于同题重复测量；汇总时优先按场景查看，不把36组当作36个独立题目夸大统计把握。
+
+复述检测将原文分词为NFKC规范化、忽略大小写和标点的词序列。保留德语变音字母，casefold将ß折为ss。算法查找最长连续匹配及8/12/16-gram的匹配比例；允许跨同场的分段边界，不允许跨场拼接制造虚假匹配。按原著来源区分train、validation和test。报告包含说话者标签等正文中的文字，常见表达和戏剧格式会产生正常重合。阈值16词是本次工程复核规则，不是经过研究校准的法律或文学判据。
+
+自动诊断不输出“AI味概率”、歌德相似度总分或文学赢家，也不证明文本完全原创。无外部标准答案的开放写作应结合内容遵循、语言可读性、人物声部、戏剧动作、重复与原著复述进行阅读。未微调Base也可能在预训练时见过歌德，这次实验不能排除该因素。测试分割与原著复述检测均不等于证明预训练数据无污染。
+
+上游参考（接口核对日期：2026-09-16；具体可用性仍以用户固定环境实测为准）：
+PEFT disable_adapter: https://huggingface.co/docs/peft/main/package_reference/peft_model
+Unsloth inference: https://unsloth.ai/docs/basics/inference-and-deployment/unsloth-inference
+Transformers GenerationConfig: https://huggingface.co/docs/transformers/v4.57.0/main_classes/text_generation
+训练协议来源：training/local8gb/core.py、training/local8gb/run.py、models/faust-local8gb-r8-20260916.json，基线Git提交9906145032f8936ce3f6906b9ef6650cab06d9be。

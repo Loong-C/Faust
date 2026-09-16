@@ -1,0 +1,29 @@
+{
+  "release": "faust-eval-0.1.0",
+  "stage": "evaluation_code_prepared_not_gpu_executed",
+  "base_commit": "9906145032f8936ce3f6906b9ef6650cab06d9be",
+  "branch": "eval/faust-lora-v0.1.0",
+  "dataset_release": "faust-sft-0.1.0",
+  "model_record": "models/faust-local8gb-r8-20260916.json",
+  "default_cases": 12,
+  "default_pairs": 36,
+  "default_generations": 72,
+  "holdout_cases": 4,
+  "files": {
+    "START_EVAL_AB.txt": "cc5bf3599bf78fe1f2d213ffc7a4749a034bf2bedea531bc7e02786a32a8f314",
+    "Test_Faust_AB.cmd": "61ce9a50fa3bbbe4eb14798eb2985b083911cb460373424be0396fe5dd31619c",
+    "eval/ab_v1/PROTOCOL_zh.txt": "760f011de403fa4a62f4a75a77c32c028932ec40716eb30bbe225f14a489da6d",
+    "eval/ab_v1/config.json": "c4d36be63d9635b7e2c55170234e300d6f8835b90893cf54c029a18bb686eae7",
+    "eval/ab_v1/core.py": "43786e4cce315b0633b55a838739c6649f22c17d51f37561d40e506a7b5575b2",
+    "eval/ab_v1/launch.ps1": "f6b4be8caa96025c98570b7a53f028a2c7a5824d9061307714e5d1309dff75b6",
+    "eval/ab_v1/offline_tests.txt": "6a8697d0bf9b6059bd7b92c05c337735827df41c668497823b8f0bfa380a47b8",
+    "eval/ab_v1/run.py": "e2c24e4ad2559db6a17d96993808c7926901d7a5c58820dd35325e1b74fd3252",
+    "eval/ab_v1/start.sh": "b718d84e321da7dd3970490e13a920ce24b06779996d328e3821da47ad4900f9",
+    "eval/ab_v1/test_eval.py": "d3c745bd56bb97df202add897e7ce5d29061bd156b83a0a4a491646875af4321",
+    "eval/ab_v1/verification.json": "a0ed973d1c9eb69381bb1092d2604a85a17e78b14d0787a43cae7c7c78cd3113",
+    ".gitattributes": "1d9810c663950e951ec7cc47fce4386b9f6c835775ec5db0b3b45949eebe6089"
+  },
+  "source_data_and_training_files_changed": false,
+  "next_artifact": "eval/results/r8-dev-v1/blind_review.zip",
+  "local_private_artifacts": "runs/eval-r8-dev-v1/"
+}
